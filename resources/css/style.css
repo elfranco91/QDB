@@ -50,7 +50,6 @@ background-color: white;
 
 }
 .rooftop {
-  display: block;
     background-image: url("../images/rooftop.jpg");
     background-repeat: no-repeat;
     background-position: center;
@@ -109,6 +108,7 @@ background-color: white;
 
 }
 .smframe {
+object-position: center;
 width: 20rem;
 height: 16rem;
 margin: auto;
