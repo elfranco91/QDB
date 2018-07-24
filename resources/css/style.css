@@ -38,6 +38,7 @@ background-color: white;
   }
 
 .armando {
+  display: block;
     background-image: url("../images/armando.jpg");
     background-repeat: no-repeat;
     background-position: center;
@@ -49,6 +50,7 @@ background-color: white;
 
 }
 .rooftop {
+  display: block;
     background-image: url("../images/rooftop.jpg");
     background-repeat: no-repeat;
     background-position: center;
