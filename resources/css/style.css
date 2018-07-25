@@ -38,15 +38,13 @@ background-color: white;
   }
 
 .armando {
-  display: block;
     background-image: url("../images/armando.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    position: absolute;
-    object-fit: scale-down;
+
     transform: rotate(90deg);
-    padding-top: 20px;
+
 
 }
 .rooftop {
@@ -54,7 +52,7 @@ background-color: white;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    position: absolute;
+
     transform: rotate(360deg);
 
 }
@@ -65,7 +63,7 @@ background-color: white;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    position: absolute;
+
 
 
 }
@@ -75,7 +73,7 @@ background-color: white;
     background-repeat: no-repeat;
     background-position: cover;
     background-size: cover;
-    position: absolute;
+
 
 
 
@@ -108,7 +106,7 @@ background-color: white;
 
 }
 .smframe {
-object-position: center;
+
 width: 20rem;
 height: 16rem;
 margin: auto;
