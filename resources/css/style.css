@@ -8,7 +8,7 @@
   background-color: #333;
 }
 .white {
-background-color: white;
+background-color: #DCDCDC;
 }
 
 
@@ -25,50 +25,45 @@ background-color: white;
  .entrance {
    background-image: url("../images/entrance2.jpg");
    background-repeat: no-repeat;
+   margin: auto;
    background-size: cover;
-   position: absolute;
-
    height: 500px;
-   width: 750px;
+   width: auto;
  }
  .three {
     height: 40rem;
     width: auto;
-    border: 2px solid white;
+    border: 2px;
   }
 
-.armando {
-    background-image: url("../images/armando.jpg");
+
+.oldtown {
+    background-image: url("../images/oldtown.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-
-    transform: rotate(90deg);
-
-
-}
-.rooftop {
-    background-image: url("../images/rooftop.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-
     transform: rotate(360deg);
 
 }
 
 .bedroom {
-
     background-image: url("../images/bedroom.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-
-
-
 }
-
-
+.armando {
+  background-image: url("../images/armando.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-size: contain;
+  height: 650px;
+  width: 100%
+}
+.cont {
+  height: 700px;
+  width: auto;
+}
 
 
 
@@ -93,7 +88,7 @@ background-color: white;
   }
 
   .navcolor {
-    background-color:#8d9ba0;
+    background-color: #f4bc42;
 
 }
 .rotate {
@@ -109,17 +104,21 @@ border: 3px solid white;
 margin-top: 2rem;
 box-shadow: 0 2px 2px rgba(0, 0, 0, .25);
 }
+#map {
+   width: 50%;
+   height: 200px;
+   background-color: grey;}
 
 .frame1 {
 
-  margin: auto;
-  border: 3px solid #8d9ba0;
+
+  border: 3px solid white;
   margin-top: 2rem;
   box-shadow: 0 2px 2px rgba(0, 0, 0, .25);
 }
 .frame {
   margin: auto;
-  margin-top: 2rem;
+  margin-top: 1rem;
   width: 70%;
   height: auto;
   box-shadow: 0 2px 2px rgba(0, 0, 0, .25);
