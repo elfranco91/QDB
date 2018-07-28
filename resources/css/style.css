@@ -7,35 +7,70 @@
 .darkestBG {
   background-color: #333;
 }
-.white {
-background-color: #DCDCDC;
+.grey {
+background-color:#DCDCDC;
 }
+.white {
+background-color: white;
+}
+body {
+  margin: 0px;
 
-
+}
+.marR{
+  margin-right: 30px;
+}
+.marL{
+  margin-left: 30px;
+}
 .farmHouse {
   background-image: url("../images/FarmHouse.jpg");
   background-repeat: no-repeat;
-  position: absoloute;
   height: 1000px;
   padding-top: 70px;
+  width: 100%;
  }
  .border {
    border: 2px solid white;
+ }
+ .pad1 {
+   padding-bottom: 1rem;
+ }
+ .padtop {
+   padding-top: 2rem;
  }
  .entrance {
    background-image: url("../images/entrance2.jpg");
    background-repeat: no-repeat;
    margin: auto;
    background-size: cover;
-   height: 500px;
+   height: 440px;
    width: auto;
  }
  .three {
     height: 40rem;
     width: auto;
     border: 2px;
+
+     line-height: 1.7;
+
+  }
+  .backh4 h4{
+    background-color: #bdbdbd;
+  }
+  .backh2 h2{
+    background-color: #CECECE;
   }
 
+p {
+  font-family: 'Port Lligat Sans', sans-serif;
+  font-family: 'Rajdhani', sans-serif;
+}
+  .foot{
+     height: 10rem;
+
+     border: 2px solid white;
+   }
 
 .oldtown {
     background-image: url("../images/oldtown.jpg");
@@ -43,6 +78,7 @@ background-color: #DCDCDC;
     background-position: center;
     background-size: cover;
     transform: rotate(360deg);
+    transition: transform .2s; /* Animation */
 
 }
 
@@ -51,31 +87,53 @@ background-color: #DCDCDC;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    transition: transform .2s; /* Animation */
+    margin: 0 auto;
+}
+.beach {
+  background-image: url("../images/beach.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  transition: transform .2s; /* Animation */
+}
+.zoom:hover {
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 .armando {
-  background-image: url("../images/armando.jpg");
+  background-image: url("../images/rsz_armando.jpg");
   background-repeat: no-repeat;
-  background-size:cover;
+  background-position: center;
   background-size: contain;
-  height: 650px;
-  width: 100%
+
+}
+.porta10 {
+  background-image: url("../images/porta10.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
 }
 .cont {
   height: 700px;
   width: auto;
 }
 
-
-
-
+.padding-0{
+    padding-right:0;
+    padding-left:0;
+}
 .pad {
   margin-left: 30px;
-  margin-right: 30px;
+  margin-right:
 
 }
+
+
  .slide div {
     height: 30rem;
-    border: 2px solid white;
+    border: 1px solid white;
+
 
   }
   .slide div img {
@@ -88,16 +146,25 @@ background-color: #DCDCDC;
   }
 
   .navcolor {
-    background-color: #f4bc42;
+    background-color: #AAAFAA;
 
 }
 .rotate {
-  transform: rotate(90deg);
+  transform: rotate(deg);
 
 }
 .smframe {
 
 width: 20rem;
+height: 16rem;
+margin: auto;
+border: 3px solid white;
+margin-top: 2rem;
+box-shadow: 0 2px 2px rgba(0, 0, 0, .25);
+}
+.mdframe {
+
+width: 50rem;
 height: 16rem;
 margin: auto;
 border: 3px solid white;
@@ -110,16 +177,35 @@ box-shadow: 0 2px 2px rgba(0, 0, 0, .25);
    background-color: grey;}
 
 .frame1 {
-
-
-  border: 3px solid white;
+  border: 1px solid white;
   margin-top: 2rem;
   box-shadow: 0 2px 2px rgba(0, 0, 0, .25);
 }
+.greyframe{
+  border: 3px solid #DCDCDC;
+  margin-top: 2rem;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, .25);
+  }
 .frame {
   margin: auto;
   margin-top: 1rem;
   width: 70%;
   height: auto;
   box-shadow: 0 2px 2px rgba(0, 0, 0, .25);
+
+}
+.icon{
+  text-align: center;
+
+}
+footer {
+
+  height: 10rem;
+  margin-top: 0px;
+  padding-top: 0px;
+  background-color: #AAAFAA;
+
+}
+h4:hover, a:hover {
+    background-color: #DBD8CD;
 }
