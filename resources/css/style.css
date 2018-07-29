@@ -24,9 +24,8 @@ body {
   margin-left: 30px;
 }
 .farmHouse {
-  background-image: url("../images/FarmHouse.jpg");
-  background-repeat: no-repeat;
-  height: 1000px;
+
+  height: auto;
   padding-top: 70px;
   width: 100%;
  }
@@ -37,7 +36,7 @@ body {
    padding-bottom: 1rem;
  }
  .padtop {
-   padding-top: 2rem;
+   padding-top: 3rem;
  }
  .entrance {
    background-image: url("../images/entrance2.jpg");
@@ -146,7 +145,7 @@ p {
   }
 
   .navcolor {
-    background-color: #AAAFAA;
+    background-color: #C7D5EAf;
 
 }
 .rotate {
