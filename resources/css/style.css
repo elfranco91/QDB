@@ -71,23 +71,25 @@ p {
      border: 2px solid white;
    }
 
-.oldtown {
-    background-image: url("../images/oldtown.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    transform: rotate(360deg);
-    transition: transform .2s; /* Animation */
+ {
+
+
 
 }
-
+.oldtown {
+  background-image: url("../images/oldtown.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  transition: transform .2s; /* Animation */
+}
 .bedroom {
     background-image: url("../images/bedroom.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     transition: transform .2s; /* Animation */
-    margin: 0 auto;
+
 }
 .beach {
   background-image: url("../images/beach.jpg");
@@ -98,6 +100,7 @@ p {
 }
 .zoom:hover {
     transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+
 }
 .armando {
   background-image: url("../images/rsz_armando.jpg");
@@ -106,6 +109,8 @@ p {
   background-size: contain;
 
 }
+
+
 .porta10 {
   background-image: url("../images/porta10.jpg");
   background-repeat: no-repeat;
@@ -151,6 +156,7 @@ p {
 .rotate {
   transform: rotate(deg);
 
+
 }
 .smframe {
 
@@ -186,11 +192,11 @@ box-shadow: 0 2px 2px rgba(0, 0, 0, .25);
   box-shadow: 0 2px 2px rgba(0, 0, 0, .25);
   }
 .frame {
-  margin: auto;
+
   margin-top: 1rem;
   width: 70%;
   height: auto;
-  box-shadow: 0 2px 2px rgba(0, 0, 0, .25);
+
 
 }
 .icon{
@@ -207,4 +213,5 @@ footer {
 }
 h4:hover, a:hover {
     background-color: #DBD8CD;
+
 }
