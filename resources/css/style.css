@@ -15,7 +15,7 @@ background-color: white;
 }
 body {
   margin: 0px;
-
+  background-color: #AAAFAA;
 }
 .marR{
   margin-right: 30px;
@@ -38,12 +38,12 @@ body {
  .padtop {
    padding-top: 4rem;
  }
- .entrance {
-   background-image: url("../images/entrance2.jpg");
+ .stone2 {
+   background-image: url("../images/stone2.jpg");
    background-repeat: no-repeat;
    margin: auto;
    background-size: cover;
-   height: 440px;
+   height: 700px;
    width: auto;
  }
  .three {
@@ -54,8 +54,13 @@ body {
      line-height: 1.7;
 
   }
-  .backh4 h4{
-    background-color: #bdbdbd;
+ h4{
+   font-family: 'Shadows Into Light Two', cursive;
+   font-family: 'Merienda', cursive;
+  }
+  h2 {
+    font-family: 'Shadows Into Light Two', cursive;
+    font-family: 'Merienda', cursive;
   }
   .backh2 h2{
     background-color: #CECECE;
@@ -120,7 +125,7 @@ p {
 }
 .cont {
   height: 700px;
-  width: auto;
+  width: 100%;
 }
 
 .padding-0{
@@ -151,7 +156,6 @@ p {
 
   .navcolor {
     background-color: #C7D5EAf;
-
 }
 .rotate {
   transform: rotate(deg);
@@ -211,7 +215,7 @@ footer {
   background-color: #AAAFAA;
 
 }
-h4:hover, a:hover {
+h4:hover, nav a:hover {
     background-color: #DBD8CD;
 
 }
