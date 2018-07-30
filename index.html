@@ -66,7 +66,7 @@
 
 <body class="">
 <!-- Top container -->
-  <div class="container-fluid white">
+  <div class="container-fluid white ">
     <div class="row">
       <div class="farmHouse col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12">
         <img src="./resources/images/FarmHouse.jpg" class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 img-responsive">
@@ -88,13 +88,28 @@
             There is also high speed internet access with <b><i>Wi-Fi</i> </b>Fibre optic broadband.</p>
 
             <div class="stone2 greyframe"></div>
+            <div class="row">
 
+
+              <div class="container padtop col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                <h4>Location</h4>
+                <p>The Apartmert is situated just up off the high town its a 20 min stroll down to the beach in the old town.Alternativly the bus stop is just accross the road they will take you down in under 5 mins, the come on time every 30 mins mon to friday or every hour on wekends and bank holidays.</p>
+
+              </div>
+              <!-- Google maps -->
+              <div class="container padtop col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                <div class="row">
+                  <div id="map"></div>
+
+                </div>
+              </div>
+            </div>
 
       </div>
     </div>
   </div>
   <!--Slider  -->
-  <section>
+  <section class="mar">
     <div class="container-fluid frame grey">
       <div class="slide">
         <div><img src="resources\images\entrance2.jpg"/></div>
@@ -110,7 +125,6 @@
         <div><img src="resources\images\hall.jpg"/></div>
         <div><img src="resources\images\bedroomView.jpg"/></div>
         <div><img src="resources\images\front.jpg"/></div>
-        <div><img src="resources\images\stone.jpg"/></div>
         <div><img src="resources\images\garden1.jpg"/></div>
         <div><img src="resources\images\garden2.jpg"/></div>
         <div><img src="resources\images\garden3.jpg"/></div>
@@ -227,7 +241,7 @@
     var uluru = {lat: 37.1034625, lng: -8.239655900000002};
     // The map, centered at Uluru
     var map = new google.maps.Map(
-      document.getElementById('map'), {zoom: 4, center: uluru});
+      document.getElementById('map'), {zoom: 10, center: uluru});
       // The marker, positioned at Uluru
       var marker = new google.maps.Marker({position: uluru, map: map});
     }

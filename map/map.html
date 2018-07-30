@@ -12,7 +12,7 @@
 
     <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
-    <link href="../resources/css/style.css" type="text/css" rel="stylesheet">
+    <link href="./resources/css/style.css" type="text/css" rel="stylesheet">
     <title>Quinta Dos Brejos</title>
   </head>
 
@@ -92,7 +92,21 @@
       });
 
     </script>
-
+    <script>
+    // Initialize and add the map
+    function initMap() {
+      // The location of Uluru
+      var uluru = {lat: 37.1034625, lng: -8.239655900000002};
+      // The map, centered at Uluru
+      var map = new google.maps.Map(
+        document.getElementById('map'), {zoom: 12, center: uluru});
+        // The marker, positioned at Uluru
+        var marker = new google.maps.Marker({position: uluru, map: map});
+      }
+      </script>
+      <script async defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAGA18i4a4E45gItHRQKXwTb9ElpDmvDkE&callback=initMap">
+      </script>
 
   </body>
 </html>

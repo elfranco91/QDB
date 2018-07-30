@@ -12,6 +12,7 @@ background-color:#DCDCDC;
 }
 .white {
 background-color: white;
+padding-bottom: 60px;
 }
 body {
   margin: 0px;
@@ -27,6 +28,7 @@ body {
 
   height: auto;
   padding-top: 70px;
+  padding-bottom: 40px;
   width: 100%;
  }
  .border {
@@ -43,7 +45,7 @@ body {
    background-repeat: no-repeat;
    margin: auto;
    background-size: cover;
-   height: 700px;
+   height: 400px;
    width: auto;
  }
  .three {
@@ -54,10 +56,12 @@ body {
      line-height: 1.7;
 
   }
- h4{
+ h4 {
    font-family: 'Shadows Into Light Two', cursive;
    font-family: 'Merienda', cursive;
   }
+
+
   h2 {
     font-family: 'Shadows Into Light Two', cursive;
     font-family: 'Merienda', cursive;
@@ -137,7 +141,6 @@ p {
   margin-right:
 
 }
-
 
  .slide div {
     height: 30rem;
