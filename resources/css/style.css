@@ -30,10 +30,15 @@ body {
 
 .farmHouse {
 
-  height: auto;
+
   padding-top: 70px;
-background-size: contain;
-  width: 100%;
+  background-size: contain;
+  width: auto;
+  height:100%;
+ }
+ .firstdiv {
+   height: 800px;
+   width; 100%;
  }
  .border {
    border: 2px solid white;
@@ -44,12 +49,16 @@ background-size: contain;
  .padtop {
    padding-top: 4rem;
  }
+ .pad2top
+ {
+    padding-top: 2rem;
+ }
  .stone2 {
    background-image: url("../images/stone2.jpg");
    background-repeat: no-repeat;
    margin: auto;
    background-size: cover;
-   height: 300px;
+   height: 290px;
    width: auto;
  }
  .three {
