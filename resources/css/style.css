@@ -24,6 +24,9 @@ body {
 .marL{
   margin-left: 30px;
 }
+.marb{
+  margin-bottom: 10rem;:
+}
 .farmHouse {
 
   height: auto;
@@ -80,11 +83,11 @@ p {
      border: 2px solid white;
    }
 
- {
 
 
 
-}
+
+
 .oldtown {
   background-image: url("../images/oldtown.jpg");
   background-repeat: no-repeat;
@@ -126,6 +129,13 @@ p {
   background-position: center;
   background-size: cover;
 
+}
+.traveler {
+
+    background-image: url("../images/traveler.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
 }
 .cont {
   height: 700px;
@@ -182,10 +192,6 @@ border: 3px solid white;
 margin-top: 2rem;
 box-shadow: 0 2px 2px rgba(0, 0, 0, .25);
 }
-#map {
-   width: 50%;
-   height: 200px;
-   background-color: grey;}
 
 .frame1 {
   border: 1px solid white;
@@ -209,15 +215,20 @@ box-shadow: 0 2px 2px rgba(0, 0, 0, .25);
   text-align: center;
 
 }
+#ag {
+
+  color:#AAAFAA;
+  text-decoration:none;
+}
 footer {
 
-  height: 3rem;
+  height: 1rem;
   margin-top: 0px;
   padding-top: 0px;
-  background-color: #AAAFAA;
+  background-color: #C7D5EAf;
 
 }
-h4:hover, nav a:hover {
+ nav a:hover {
     background-color: #DBD8CD;
 
 }
