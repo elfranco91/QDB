@@ -27,11 +27,12 @@ body {
 .marb{
   margin-bottom: 10rem;:
 }
+
 .farmHouse {
 
   height: auto;
   padding-top: 70px;
-  padding-bottom: 40px;
+
   width: 100%;
  }
  .border {
@@ -154,7 +155,7 @@ p {
  .slide div {
     height: 30rem;
     border: 1px solid white;
-
+    width: auto;
 
   }
   .slide div img {
@@ -207,7 +208,7 @@ box-shadow: 0 2px 2px rgba(0, 0, 0, .25);
 
   margin-top: 1rem;
   width: 70%;
-  height: auto;
+
 
 
 }
