@@ -32,7 +32,7 @@ body {
   padding-top: 70px;
   background-size: contain;
   width: auto;
-  
+
  }
  .firstdiv {
    height: 800px;
@@ -56,7 +56,7 @@ body {
    background-repeat: no-repeat;
    margin: auto;
    background-size: cover;
-   height: 290px;
+   height: 48rem;
    width: auto;
  }
  .three {
@@ -146,7 +146,7 @@ p {
     background-size: contain;
 }
 .cont {
-  height: 700px;
+  height: 430px;
   width: 100%;
 }
 
@@ -158,7 +158,9 @@ p {
   padding-top: 1rem;
 
 }
-
+.padRight {
+  padding-right: 30px;
+}
  .slide div {
     height: 30rem;
     border: 1px solid white;
@@ -170,8 +172,6 @@ p {
     object-position: center;
     height: 30rem;
     width: 100%;
-
-
   }
 
   .navcolor {
@@ -190,6 +190,17 @@ margin: auto;
 border: 3px solid white;
 margin-top: 2rem;
 box-shadow: 0 2px 2px rgba(0, 0, 0, .25);
+}
+.frameTrav {
+width: 20rem;
+height: 16rem;
+margin: auto;
+margin-top: 2rem;
+
+
+
+
+
 }
 .mdframe {
 
@@ -239,4 +250,12 @@ footer {
  nav a:hover {
     background-color: #DBD8CD;
 
+}
+@media only screen and (max-width: 1300px) {
+    .stone2 {
+      margin: auto;
+      background-size: cover;
+      height: 22rem;
+      width: auto;
+    }
 }
