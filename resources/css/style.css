@@ -7,6 +7,9 @@
 .darkestBG {
   background-color: #333;
 }
+.kaki {
+    background-color: #fff;
+}
 .grey {
 background-color:#DCDCDC;
 }
@@ -118,6 +121,87 @@ p {
   background-size: cover;
   transition: transform .2s; /* Animation */
 }
+.skateBar {
+    background-image: url("../images/skateBar.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: #C7D5EAf;
+    transition: transform .2s; /* Animation */
+
+}
+.parque {
+    background-image: url("../images/parque.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #C7D5EAf;
+    background-size: cover;
+    transition: transform .2s; /* Animation */
+
+}
+.modelo {
+    background-image: url("../images/modelo.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+
+    background-size: cover;
+    transition: transform .2s; /* Animation */
+
+}
+.erins {
+    background-image: url("../images/erins.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+
+    background-size: cover;
+    transition: transform .2s; /* Animation */
+
+}
+.marina {
+    background-image: url("../images/marina.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+
+    background-size: cover;
+    transition: transform .2s; /* Animation */
+
+}
+.busStation {
+    background-image: url("../images/busStation.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+
+    background-size: cover;
+    transition: transform .2s; /* Animation */
+
+}
+.ruina {
+    background-image: url("../images/ruina.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+
+    background-size: cover;
+    transition: transform .2s; /* Animation */
+
+}
+.slide {
+    background-image: url("../images/slide.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+
+    background-size: cover;
+    transition: transform .2s; /* Animation */
+
+}
+.zoo {
+    background-image: url("../images/zoo.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+
+    background-size: cover;
+    transition: transform .2s; /* Animation */
+
+}
 .zoom:hover {
     transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 
@@ -186,6 +270,15 @@ p {
 
 width: 20rem;
 height: 16rem;
+margin: auto;
+border: 3px solid white;
+margin-top: 2rem;
+box-shadow: 0 2px 2px rgba(0, 0, 0, .25);
+}
+.smframe2 {
+
+width: 15rem;
+height: 8rem;
 margin: auto;
 border: 3px solid white;
 margin-top: 2rem;
