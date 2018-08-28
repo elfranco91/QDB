@@ -8,7 +8,7 @@
   background-color: #333;
 }
 .kaki {
-    background-color: #fff;
+      background-color: #AAAFAA;
 }
 .grey {
 background-color:#DCDCDC;
@@ -315,6 +315,11 @@ box-shadow: 0 2px 2px rgba(0, 0, 0, .25);
   margin-top: 2rem;
   box-shadow: 0 2px 2px rgba(0, 0, 0, .25);
   }
+.kakiframe{
+    border-top: 3px solid #AAAFAA;
+  
+    box-shadow: 0 2px  rgba(0, 0, 0, .25);
+    }
 .frame {
 
   margin-top: 1rem;
