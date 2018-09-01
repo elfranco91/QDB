@@ -24,6 +24,11 @@ body {
 .marR{
   margin-right: 30px;
 }
+.marRL{
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
 .marL{
   margin-left: 30px;
 }
@@ -230,7 +235,7 @@ p {
     background-size: contain;
 }
 .cont {
-  height: 430px;
+  height: auto;
   width: 100%;
 }
 
