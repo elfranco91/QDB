@@ -75,6 +75,9 @@ body {
      line-height: 1.7;
 
   }
+  a {
+    text-decoration: none;
+  }
  h4 {
    font-family: 'Shadows Into Light Two', cursive;
    font-family: 'Merienda', cursive;
@@ -85,6 +88,7 @@ body {
     font-family: 'Shadows Into Light Two', cursive;
     font-family: 'Merienda', cursive;
   }
+
   .backh2 h2{
     background-color: #CECECE;
   }
@@ -189,8 +193,8 @@ p {
     transition: transform .2s; /* Animation */
 
 }
-.slide {
-    background-image: url("../images/slide.jpg");
+.splash {
+    background-image: url("../images/splash.jpg");
     background-repeat: no-repeat;
     background-position: center;
 
@@ -354,6 +358,34 @@ footer {
     background-color: #DBD8CD;
 
 }
+/*Gallery css*/
+.title p {
+  font-family: 'Shadows Into Light Two', cursive;
+  font-family: 'Merienda', cursive;
+  color: white;
+
+}
+.title a {
+    text-decoration: none;
+}
+.title a:hover {
+   background-color: #DBD8CD;
+
+}
+
+.bg-color {
+    background-color: #DBD8CD;
+}
+
+
+.Gallframe {
+width: 20rem;
+height: 16rem;
+margin: auto;
+border: 3px solid white;
+box-shadow: 0 2px 2px rgba(0, 0, 0, .25);
+}
+
 @media only screen and (max-width: 1300px) {
     .stone2 {
       margin: auto;
@@ -368,6 +400,16 @@ footer {
       margin: auto;
       background-size: cover;
       height: 37rem;
+      width: auto;
+    }
+
+}
+
+@media only screen and (max-height: 720px) {
+    .stone2 {
+      margin: auto;
+      background-size: cover;
+      height: 19rem;
       width: auto;
     }
 
