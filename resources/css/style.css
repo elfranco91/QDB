@@ -17,6 +17,9 @@ background-color:#DCDCDC;
 background-color: white;
 padding-bottom: 60px;
 }
+.gallaryNav {
+  background-color: #DBD8CD;
+}
 body {
   margin: 0px;
   background-color: #AAAFAA;
@@ -220,6 +223,7 @@ p {
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
+  min-height:690px;
 
 }
 
@@ -346,12 +350,14 @@ box-shadow: 0 2px 2px rgba(0, 0, 0, .25);
   color:#AAAFAA;
   text-decoration:none;
 }
-footer {
 
-  height: 1rem;
+.footerG {
+
+  height: 12rem;
   margin-top: 0px;
   padding-top: 0px;
-  background-color: #C7D5EAf;
+  background-color: #DBD8CD;
+  width: 100%;
 
 }
  nav a:hover {

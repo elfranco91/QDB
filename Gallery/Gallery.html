@@ -9,6 +9,7 @@
   <link href="https://fonts.googleapis.com/css?family=Port+Lligat+Sans" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Merienda:400,700|Shadows+Into+Light+Two" rel="stylesheet">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
   <link href="../resources/css/style.css" type="text/css" rel="stylesheet">
   <title>Quinta Dos Brejos</title>
 </head>
@@ -16,8 +17,8 @@
 
 
   <header>
-    <nav class="navcolor navbar navbar-expand-lg navbar-light">
-      <div class="container-fluid ">
+    <nav class="gallaryNav navcolor navbar navbar-expand-lg navbar-light">
+      <div class="container-fluid">
         <a class="navbar-brand" href="#">Quinta Dos Brejos</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -25,13 +26,13 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item active">
-              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="../index.html">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="local_amenities\local.html" target="_blank">Places of interest</a>
+              <a class="nav-link" href="../local_amenities\local.html" target="_blank">Places of interest</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="GettingAround\GettingAround.html" target="_blank">Getting Around</a>
+              <a class="nav-link" href="../GettingAround/GettingAround.html" target="_blank">Getting Around</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="Gallery\Gallery.html" target="_blank">Gallery</a>
@@ -51,16 +52,16 @@
 <!-- start of gallery -->
     <div class="container title">
       <div class="row">
-        <div class="col-lg-12 ">
-          <h2>Quinta Dos Brejos Image Gallery</h2>
+        <div class="col-lg-12 padtop">
+          <h2 style="color:white;">Quinta Dos Brejos Image Gallery</h2>
         </div>
-        <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="col-lg-3 col-md-4 col-sm-6 ">
           <a href="../resources/images/oldtown.jpg" class ="thumbnail" >
           <p class="text-center pad2top">Old Town Square</p>
           <img src="../resources/images/oldtown.jpg" alt="Problem Displaying Image"class="Gallframe">
           </a>
         </div>
-        <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="col-lg-3 col-md-4 col-sm-6" style="width: auto;">
           <a href="../resources/images/beach.jpg" class ="thumbnail" >
           <p class="text-center pad2top">The Beach</p>
           <img src="../resources/images/beach.jpg" alt="Problem Displaying Image"class="Gallframe">
@@ -155,44 +156,40 @@
 
 
       </div>
-    </di>
-
-
-
-
-<footer>
-<div class="container-fluid">
-  <!-- 1x3 Bootstrap grid for contact icons, with multiple column sizes for different breakpoints -->
-  <div class="row icon">
-    <!-- Email Column-->
-    <div class="col-sm-6 col-lg-6">
-      <div class="contact icon padtop">
-        <a href="mailto:alancummins@hotmail.com?subject=Rental%20Query%20Quinta%20Dos%20Brejos%20Albufeira">
-          <span aria-hidden="true" class="fa fa-envelope fa-3x"style="color:#28a745 " ></span>
-        </a>
-        <h5>Email</h5>
-        <p class="text-left">&copy;2018 Alan Cummins.</p>
-      </div>
     </div>
-    <!-- phone Column-->
-    <div class="col-sm-6 col-lg-6">
-      <div class="contact icon padtop" >
-        <a href="tel:+353-86-0081752" >
-          <span aria-hidden="true" class="fa fa-phone fa-3x " style="color:#28a745 "  ></span>
-        </a>
-        <h5>Phone: 00353 86 0081752</h5>
-        <p class="float-right"><a href="#" style="color:#28a745">Back to top</a></p>
+
+
+
+
+
+
+    <footer class="footerG">
+      <div class="container-fluid">
+        <!-- 1x3 Bootstrap grid for contact icons, with multiple column sizes for different breakpoints -->
+        <div class="row icon">
+          <!-- Email Column-->
+          <div class="col-sm-6 col-lg-6">
+            <div class="contact icon padtop">
+              <a href="mailto:alancummins@hotmail.com?subject=Rental%20Query%20Quinta%20Dos%20Brejos%20Albufeira">
+                <span aria-hidden="true" class="fa fa-envelope fa-3x"style="color:#28a745 " ></span>
+              </a>
+              <h5>Email</h5>
+              <p class="text-left">&copy;2018 Alan Cummins.</p>
+            </div>
+          </div>
+          <!-- phone Column-->
+          <div class="col-sm-6 col-lg-6">
+            <div class="contact icon padtop" >
+              <a href="tel:+353-86-0081752" >
+                <span aria-hidden="true" class="fa fa-phone fa-3x " style="color:#28a745 "  ></span>
+              </a>
+              <h5>Phone: 00353 86 0081752</h5>
+              <p class="float-right"><a href="#" style="color:#28a745">Back to top</a></p>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
-</div>
-</footer>
-
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
-
-
-
-
+    </footer>
 
 
 </body>
