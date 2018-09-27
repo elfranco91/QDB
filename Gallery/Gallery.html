@@ -52,10 +52,11 @@
 <!-- start of gallery -->
     <div class="container title">
       <div class="row">
-        <div class="col-lg-12 padtop">
+
+        <div class="col-lg-12 padtop ">
           <h2 style="color:white; font-weight: bold;">Quinta Dos Brejos Image Gallery</h2>
         </div>
-        <div class="col-lg-3 col-md-4 col-sm-6 ">
+        <div class="col-lg-3 col-md-4 col-sm-6">
           <a href="../resources/images/oldtown.jpg" class ="thumbnail" >
           <p class="text-center pad2top">Old Town Square</p>
           <img src="../resources/images/oldtown.jpg" alt="Problem Displaying Image"class="Gallframe">
@@ -67,7 +68,7 @@
           <img src="../resources/images/beach.jpg" alt="Problem Displaying Image"class="Gallframe">
           </a>
         </div>
-        <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="col-lg-3 col-md-4 col-sm-6 carousel-item ">
           <a href="../resources/images/FarmHouse.jpg" class ="thumbnail" >
           <p class="text-center pad2top"> The Old Farm House</p>
           <img src="../resources/images/FarmHouse.jpg" alt="Problem Displaying Image"class="Gallframe">
@@ -153,6 +154,12 @@
           <img src="../resources/images/wine.jpg" alt="Problem Displaying Image"class="Gallframe">
           </a>
         </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <a href="../resources/images/pool.jpg" class ="thumbnail" >
+          <p class="text-center pad2top">Pool at night</p>
+          <img src="../resources/images/pool.jpg" alt="Problem Displaying Image"class="Gallframe">
+          </a>
+        </div>
 
 
       </div>
@@ -190,7 +197,17 @@
         </div>
       </div>
     </footer>
-
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    // MDB Lightbox Init
+<script> $(function () {
+$("#mdb-lightbox-ui").load("mdb-addons/mdb-lightbox-ui.html");
+});
+</script>
 
 </body>
 </html>
