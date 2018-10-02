@@ -1,3 +1,20 @@
+.typewriter h4 {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation:
+  typing 10s steps(40, end),
+  blink-caret .75s step-end infinite;
+
+}
+
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
 .darkBG {
   background-color: #999;
 }
@@ -20,12 +37,20 @@ padding-bottom: 60px;
 #bod {
 padding-bottom: 0;
 }
+.cen {
+  text-align: center;
+  align-items: center;
+}
+.cenil {
+  display:inline-block;
+
+}
 .gallaryNav {
   background-color: #DBD8CD;
 }
 body {
   margin: 0px;
-  background-color: #AAAFAA;
+    background-color: #AAAFAA;
 }
 .marR{
   margin-right: 30px;
@@ -71,8 +96,8 @@ body {
    background-repeat: no-repeat;
    margin: auto;
    background-size: cover;
-   height: 40rem;
-   width: auto;
+   height: 40vmin;
+   width: 70vmin;
  }
  .three {
     height: 50rem;
@@ -104,6 +129,13 @@ p {
   font-family: 'Port Lligat Sans', sans-serif;
   font-family: 'Rajdhani', sans-serif;
   line-height: 30px;
+
+}
+.quote {
+  font-family: 'Port Lligat Sans', sans-serif;
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: normal;
+  line-height: 20px;
 }
 .row-centered {
 text-align:center;
@@ -304,6 +336,15 @@ border: 3px solid white;
 margin-top: 2rem;
 box-shadow: 0 2px 2px rgba(0, 0, 0, .25);
 }
+.mapbox {
+
+width: 20rem;
+height: 16rem;
+margin: auto;
+border: 3px solid white;
+
+box-shadow: 0 2px 2px rgba(0, 0, 0, .25);
+}
 .smframe2 {
 
 width: 15rem;
@@ -314,8 +355,8 @@ margin-top: 2rem;
 box-shadow: 0 2px 2px rgba(0, 0, 0, .25);
 }
 .frameTrav {
-width: 20rem;
-height: 16rem;
+width: 10rem;
+height: 5rem;
 margin: auto;
 margin-top: 2rem;
 
@@ -428,8 +469,8 @@ box-shadow: 0 2px 2px rgba(0, 0, 0, .25);
     .stone2 {
       margin: auto;
       background-size: cover;
-      height: 37rem;
-      width: auto;
+      height: 40vmin;
+      width: 80vmin;
     }
 
 }
