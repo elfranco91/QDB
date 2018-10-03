@@ -1,3 +1,24 @@
+/*------------------------------------*\
+  #html/body
+\*------------------------------------*/
+html {
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+/*------------------------------------*\
+  #header/Nav
+\*------------------------------------*/
+.navcolor {
+  background-color: #C7D5EAf;
+}
+
+/*------------------------------------*\
+  # Top Container
+\*------------------------------------*/
 .typewriter h4 {
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   white-space: nowrap; /* Keeps the content on a single line */
@@ -6,8 +27,66 @@
   animation:
   typing 10s steps(40, end),
   blink-caret .75s step-end infinite;
+}
+.white {
+background-color: #FFF;
+padding-bottom: 60px;
+}
+
+.pad2top {
+   padding-top: 2rem;
+}
+
+.stone2 {
+  background-image: url("../images/stone2.jpg");
+  background-repeat: no-repeat;
+  margin: auto;
+  background-size: cover;
+  height: 45em;
+  width: 55em;
+}
+
+.greyframe{
+  border: 3px solid #DCDCDC;
+  margin-top: 2rem;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, .25);
+  }
+/*------------------------------------*\
+  #slider
+\*------------------------------------*/
+.frame {
+  margin-top: 1rem;
+  width: 70%;
+}
+
+.padt {
+  padding-top: 1rem;
 
 }
+  .slide div {
+     height: 30rem;
+     border: 1px solid white;
+     width: auto;
+   }
+
+   .slide div img {
+     object-position: center;
+     height: 30rem;
+     width: 100%;
+   }
+
+/*------------------------------------*\
+  #head
+\*------------------------------------*/
+/*------------------------------------*\
+  #head
+\*------------------------------------*/
+/*------------------------------------*\
+  #head
+\*------------------------------------*/
+
+
+
 
 
 /* The typing effect */
@@ -15,25 +94,14 @@
   from { width: 0 }
   to { width: 100% }
 }
-.darkBG {
-  background-color: #999;
-}
-.darkerBG {
-  background-color: #666;
-}
-.darkestBG {
-  background-color: #333;
-}
+
 .kaki {
       background-color: #AAAFAA;
 }
 .grey {
 background-color:#DCDCDC;
 }
-.white {
-background-color: white;
-padding-bottom: 60px;
-}
+
 #bod {
 padding-bottom: 0;
 }
@@ -87,18 +155,12 @@ body {
  .padtop {
    padding-top: 4rem;
  }
- .pad2top
+
+ .pad2bot
  {
-    padding-top: 2rem;
+    padding-bottom: 2rem;
  }
- .stone2 {
-   background-image: url("../images/stone2.jpg");
-   background-repeat: no-repeat;
-   margin: auto;
-   background-size: cover;
-   height: 40vmin;
-   width: 70vmin;
- }
+
  .three {
     height: 50rem;
     width: auto;
@@ -299,29 +361,13 @@ margin-right:-4px;
     padding-right:0;
     padding-left:0;
 }
-.padt {
-  padding-top: 1rem;
 
-}
 .padRight {
   padding-right: 30px;
 }
- .slide div {
-    height: 30rem;
-    border: 1px solid white;
-    width: auto;
 
-  }
-  .slide div img {
 
-    object-position: center;
-    height: 30rem;
-    width: 100%;
-  }
 
-  .navcolor {
-    background-color: #C7D5EAf;
-}
 .rotate {
   transform: rotate(deg);
 
@@ -379,24 +425,13 @@ box-shadow: 0 2px 2px rgba(0, 0, 0, .25);
   margin-top: 2rem;
   box-shadow: 0 2px 2px rgba(0, 0, 0, .25);
 }
-.greyframe{
-  border: 3px solid #DCDCDC;
-  margin-top: 2rem;
-  box-shadow: 0 2px 2px rgba(0, 0, 0, .25);
-  }
+
 .kakiframe{
     border-top: 3px solid #AAAFAA;
 
     box-shadow: 0 2px  rgba(0, 0, 0, .25);
     }
-.frame {
 
-  margin-top: 1rem;
-  width: 70%;
-
-
-
-}
 .icon{
   text-align: center;
 
@@ -460,7 +495,7 @@ box-shadow: 0 2px 2px rgba(0, 0, 0, .25);
     .stone2 {
       margin: auto;
       background-size: cover;
-      height: 22rem;
+      height: 40vmin;
       width: auto;
     }
 
@@ -469,7 +504,7 @@ box-shadow: 0 2px 2px rgba(0, 0, 0, .25);
     .stone2 {
       margin: auto;
       background-size: cover;
-      height: 40vmin;
+      height: 45vmin;
       width: 80vmin;
     }
 
@@ -479,8 +514,7 @@ box-shadow: 0 2px 2px rgba(0, 0, 0, .25);
     .stone2 {
       margin: auto;
       background-size: cover;
-      height: 19rem;
+      height: 40vmin;
       width: auto;
     }
-
 }
