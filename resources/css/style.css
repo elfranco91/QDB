@@ -25,7 +25,7 @@ body {
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
   letter-spacing: .15em; /* Adjust as needed */
   animation:
-  typing 10s steps(40, end),
+  typing 2s steps(40, end),
   blink-caret .75s step-end infinite;
 }
 .white {
@@ -75,12 +75,74 @@ padding-bottom: 60px;
      width: 100%;
    }
 
+
+
+
+
+
 /*------------------------------------*\
-  #head
+  #The Three Amigos
 \*------------------------------------*/
+.pad1 {
+  padding-bottom: 1rem;
+}
+.padtop {
+  padding-top: 4rem;
+}
+.three {
+   height: 50rem;
+   width: auto;
+   border: 2px;
+   line-height: 1.7;
+
+ }
+ .smframe {
+
+ width: 20rem;
+ height: 16rem;
+ margin: auto;
+ border: 3px solid white;
+ margin-top: 2rem;
+ box-shadow: 0 2px 2px rgba(0, 0, 0, .25);
+ }
+ .zoom:hover {
+     transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+
+ }
+
+ .oldtown {
+   background-image: url("../images/oldtown.jpg");
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   transition: transform .2s; /* Animation */
+ }
+ .bedroom {
+     background-image: url("../images/bedroom.jpg");
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+     transition: transform .2s; /* Animation */
+
+ }
+ .beach {
+   background-image: url("../images/beach.jpg");
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   transition: transform .2s; /* Animation */
+ }
 /*------------------------------------*\
-  #head
+  #Quote
 \*------------------------------------*/
+ .quotepic {
+     background-image: url("../images/beach.jpg");
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+     height: 18rem;
+
+ }
 /*------------------------------------*\
   #head
 \*------------------------------------*/
@@ -149,26 +211,15 @@ body {
  .border {
    border: 2px solid white;
  }
- .pad1 {
-   padding-bottom: 1rem;
- }
- .padtop {
-   padding-top: 4rem;
- }
+
+
 
  .pad2bot
  {
     padding-bottom: 2rem;
  }
 
- .three {
-    height: 50rem;
-    width: auto;
-    border: 2px;
 
-     line-height: 1.7;
-
-  }
   a {
     text-decoration: none;
   }
@@ -194,10 +245,16 @@ p {
 
 }
 .quote {
+
   font-family: 'Port Lligat Sans', sans-serif;
   font-family: 'Rajdhani', sans-serif;
-  font-weight: normal;
+  color: white;
+  font-weight: 700;
   line-height: 20px;
+  padding-top: 3em;
+
+
+
 }
 .row-centered {
 text-align:center;
@@ -221,28 +278,7 @@ margin-right:-4px;
 
 
 
-.oldtown {
-  background-image: url("../images/oldtown.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  transition: transform .2s; /* Animation */
-}
-.bedroom {
-    background-image: url("../images/bedroom.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    transition: transform .2s; /* Animation */
 
-}
-.beach {
-  background-image: url("../images/beach.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  transition: transform .2s; /* Animation */
-}
 .skateBar {
     background-image: url("../images/skateBar.jpg");
     background-repeat: no-repeat;
@@ -324,10 +360,7 @@ margin-right:-4px;
     transition: transform .2s; /* Animation */
 
 }
-.zoom:hover {
-    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 
-}
 .armando {
   background-image: url("../images/rsz_armando.jpg");
   background-repeat: no-repeat;
@@ -373,15 +406,7 @@ margin-right:-4px;
 
 
 }
-.smframe {
 
-width: 20rem;
-height: 16rem;
-margin: auto;
-border: 3px solid white;
-margin-top: 2rem;
-box-shadow: 0 2px 2px rgba(0, 0, 0, .25);
-}
 .mapbox {
 
 width: 20rem;
