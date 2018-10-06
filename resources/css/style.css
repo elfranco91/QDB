@@ -51,6 +51,12 @@ padding-bottom: 60px;
   margin-top: 2rem;
   box-shadow: 0 2px 2px rgba(0, 0, 0, .25);
   }
+
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
 /*------------------------------------*\
   #slider
 \*------------------------------------*/
@@ -132,6 +138,11 @@ padding-bottom: 60px;
    background-size: cover;
    transition: transform .2s; /* Animation */
  }
+
+
+
+
+
 /*------------------------------------*\
   #Quote
 \*------------------------------------*/
@@ -143,19 +154,72 @@ padding-bottom: 60px;
      height: 18rem;
 
  }
+  .pad2bot
+  {
+     padding-bottom: 2rem;
+  }
+   /* pad2top in top container above*/
+  /*white in top container above*/
+  /*padtop in The three amigios above*/
+  /*typewriter in top container above */
+
+
+
+
+
 /*------------------------------------*\
-  #head
+  #Google maps
+\*------------------------------------*/
+/*white in top conatiner above*/
+
+
+
+
+
+
+/*------------------------------------*\
+  #footer
 \*------------------------------------*/
 
-
-
-
-
-/* The typing effect */
-@keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
+.icon{
+  text-align: center;
+  /*padtop in The three amigios above*/
 }
+
+
+
+
+
+/*------------------------------------*\
+  #local Aminities Page
+\*------------------------------------*/
+/*------------------------------------*\
+  #Armando
+\*------------------------------------*/
+.armando {
+  background-image: url("../images/rsz_armando.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  min-height:690px;
+
+}
+
+
+
+
+
+/*------------------------------------*\
+  #local Aminities
+\*------------------------------------*/
+.marRL{
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+
+
+
 
 .kaki {
       background-color: #AAAFAA;
@@ -185,10 +249,7 @@ body {
 .marR{
   margin-right: 30px;
 }
-.marRL{
-  margin-right: 30px;
-  margin-left: 30px;
-}
+
 .padRL{
   padding-left:250px;
   padding-right: 250px;
@@ -214,10 +275,6 @@ body {
 
 
 
- .pad2bot
- {
-    padding-bottom: 2rem;
- }
 
 
   a {
@@ -361,14 +418,7 @@ margin-right:-4px;
 
 }
 
-.armando {
-  background-image: url("../images/rsz_armando.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
-  min-height:690px;
 
-}
 
 
 .porta10 {
@@ -457,10 +507,7 @@ box-shadow: 0 2px 2px rgba(0, 0, 0, .25);
     box-shadow: 0 2px  rgba(0, 0, 0, .25);
     }
 
-.icon{
-  text-align: center;
 
-}
 #ag {
 
   color:#AAAFAA;
