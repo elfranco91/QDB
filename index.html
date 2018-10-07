@@ -175,7 +175,15 @@ Here -->
   </div>
 
 
-
+    <div class="container-fluid">
+      <div class="row white">
+        <video width="420" height="340" controls class="gbt">
+          <source src="resources\video\albufeira.mp4" type="video/mp4">
+          <source src="movie.ogg" type="video/ogg">
+            Your browser does not support the video tag.
+        </video>
+      </div>
+    </div>
 
   <!------------- Quotes------------------- -->
     <div class="container-fluid">
@@ -316,7 +324,34 @@ Here -->
     <script async defer
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAGA18i4a4E45gItHRQKXwTb9ElpDmvDkE&callback=initMap">
     </script>
+    <script>
+    $(document).ready(function() {
+             // Get media - with autoplay disabled (audio or video)
 
+             var media = $('video').not("[autoplay='autoplay']");
+             var tolerancePixel = 40;
+
+             function checkMedia(){
+                 // Get current browser top and bottom
+                 var scrollTop = $(window).scrollTop() + tolerancePixel;
+                 var scrollBottom = $(window).scrollTop() + $(window).height() - tolerancePixel;
+
+                 media.each(function(index, el) {
+                     var yTopMedia = $(this).offset().top;
+                     var yBottomMedia = $(this).height() + yTopMedia;
+
+                     if(scrollTop < yBottomMedia && scrollBottom > yTopMedia){ //view explaination in `In brief` section above
+                         $(this).get(0).play();
+                     } else {
+                         $(this).get(0).pause();
+                     }
+                 });
+
+                 //}
+             }
+             $(document).on('scroll', checkMedia);
+         });
+    </script>
 
 </body>
 </html>
