@@ -8,6 +8,7 @@ html {
 body {
   margin: 0;
   padding: 0;
+  background-color: white;
 
 }
 /*------------------------------------*\
@@ -117,8 +118,8 @@ padding-bottom: 60px;
  box-shadow: 0 2px 2px rgba(0, 0, 0, .25);
  }
  .zoom:hover {
-     transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
-
+     transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+     transition: 0.50s ease;
  }
 
  .oldtown {
@@ -173,8 +174,7 @@ padding-bottom: 60px;
      height: 18rem;
 
  }
-  .pad2bot
-  {
+  .pad2bot {
      padding-bottom: 2rem;
   }
    /* pad2top in top container above*/
@@ -183,8 +183,12 @@ padding-bottom: 60px;
   /*typewriter in top container above */
 
 
+
+
+
+
   /*------------------------------------*\
-    #Quote
+    #video
   \*------------------------------------*/
 
 .vidtopmar {
@@ -196,6 +200,7 @@ padding-bottom: 60px;
       display: none;
     }
 }
+
 /*------------------------------------*\
   #Google maps
 \*------------------------------------*/
@@ -302,8 +307,17 @@ body {
    border: 2px solid white;
  }
 
+ /*------------------------------------*\
+/*       Getting Around Page            *\
+   #rdpad
+ \*------------------------------------*/
 
-
+ @media only screen and (max-width: 400px) {
+     .rdpad {
+       padding-left: 5px;
+       padding-right: 5px;
+     }
+ }
 
 
   a {
@@ -337,8 +351,11 @@ p {
   color: white;
   font-weight: 500;
   line-height: 20px;
-  padding-top: 3em;
-
+  padding-top: 1em;
+}
+.pushi {
+  padding-top: 2em;
+}
 
 
 }
