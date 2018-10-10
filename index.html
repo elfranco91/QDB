@@ -81,6 +81,7 @@ Here -->
             Overall the complex is very quiet and is an ideal spot to relax and watch the days drift by,the complex has a mixture of expats and Portuguese residents, giving it a very unique vibe.
             There is also high speed internet access with <b><i>Wi-Fi</i> </b>Fibre optic broadband.</p>
             <div class="stone2 greyframe"></div>
+
       </div>
     </div>
 
@@ -177,6 +178,7 @@ Here -->
   <!------------- Quotes------------------- -->
     <div class="container-fluid">
     <div class="row pad2top pad2bot quotepic">
+
       <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12 cen " id="hid">
         <i class="fas fa-quote-right pushi" style="color: white;"><p class="quote">
 
@@ -206,8 +208,8 @@ Here -->
       </div>
     </div>
 
-    <!------------- Pool Video ------------------- -->
-        <div class="container-fluid">
+    <!------------- Pool Video --------------------->
+        <div class="container-fluid video-content" >
           <div class="row" style="background-color: white;">
             <video controls muted width="420" height="340" controls class="gbt vidtopmar">
               <source src="resources\video\albufeira.mp4" type="video/mp4">
@@ -226,8 +228,8 @@ Here -->
       <div class="typewriter"><h4 class="text-center">Location</h4></div>
 
       <div class="marRL">
-        <p class="text-center">The Apartmert is situated just up off the high town its a 20 min stroll down to the beach in the old town.<br>Alternativly the bus stop is just accross the road they will take you down in under 5 mins, they<br> come on
-          time every 30 mins mon to friday or every hour on wekends and bank holidays.</p>
+        <p class="text-center">The Apartmert is situated just up off the high town its a 20 min stroll down to the beach in the old town.<br>Alternativly the bus stop is just accross the road the bus will take you down in under 5 mins, they<br> come on
+          time every 30 mins, mon to friday and every hour on wekends and bank holidays.</p>
       </div>
 
 
@@ -238,6 +240,7 @@ Here -->
 
 
         <div id="map" class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12 mapbox"></div>
+        <!-- Go to www.addthis.com/dashboard to customize your tools -->
 
     </div>
 
@@ -255,7 +258,7 @@ Here -->
     </div>
 
 
-
+<!-------- footer ----------------- -->
   <footer>
   <div class="container-fluid">
     <!-- 1x3 Bootstrap grid for contact icons, with multiple column sizes for different breakpoints -->
@@ -351,6 +354,13 @@ Here -->
              $(document).on('scroll', checkMedia);
          });
     </script>
+<script src="js/jquery.fitvids.js"></script>
 
+<script>
+$(document).ready(function(){
+  // Target your .container, .wrapper, .post, etc.
+  $(".video-content").fitVids();
+});
+</script>
 </body>
 </html>
