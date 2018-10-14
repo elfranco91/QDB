@@ -11,6 +11,9 @@ body {
   background-color: white;
 
 }
+.glopadb {
+  padding-bottom: 60px;
+}
 /*------------------------------------*\
   #header/Nav
 \*------------------------------------*/
@@ -30,10 +33,7 @@ body {
   typing 2s steps(40, end),
   blink-caret .75s step-end infinite;
 }
-.white {
-background-color: #FFF;
-padding-bottom: 60px;
-}
+
 
 .pad2top {
    padding-top: 2rem;
@@ -68,8 +68,8 @@ padding-bottom: 60px;
 }
 
 .padt {
-  padding-top: 1rem;
-
+  padding-top: 2rem;
+  padding-bottom: 0.5rem;
 }
   .slide div {
      height: 30rem;
@@ -203,11 +203,6 @@ padding-bottom: 60px;
       display: none;
     }
 }
-@media only screen and (min-width: 400px) {
-    #show {
-      display: block;
-    }
-}
 
 /*------------------------------------*\
   #Google maps
@@ -227,14 +222,16 @@ padding-bottom: 60px;
   text-align: center;
   /*padtop in The three amigios above*/
 }
-@media only screen and (min-width: 400px) {
-    #hid {
+@media only screen and (max-width: 580px) {
+    #hid{
       display: none;
     }
 }
-
-
-
+@media only screen and (min-width: 580px) {
+    #show{
+      display: none;
+    }
+}
 
 
 /*------------------------------------*\
