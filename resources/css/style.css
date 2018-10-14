@@ -157,8 +157,9 @@ padding-bottom: 60px;
   }
   .padbtn {
 
-    padding-bottom: 20px;
+    padding-bottom: 30px;
   }
+
   @media only screen and (min-width: 400px) {
       .hideb {
         display: none;
@@ -194,7 +195,7 @@ padding-bottom: 60px;
   \*------------------------------------*/
 
 .vidtopmar {
-  margin-top: 80px;
+  margin-top: 70px;
 }
 
 @media only screen and (max-width: 400px) {
