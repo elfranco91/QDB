@@ -253,6 +253,7 @@ body {
 
 
 
+
 /*------------------------------------*\
   #local Aminities
 \*------------------------------------*/
@@ -260,9 +261,6 @@ body {
   margin-right: 20px;
   margin-left: 20px;
 }
-
-
-
 
 
 .kaki {
@@ -491,6 +489,7 @@ margin-right:-4px;
 .cont {
   height: auto;
   width: 100%;
+  margin:0;
 }
 
 .padding-0{
