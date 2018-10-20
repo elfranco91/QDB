@@ -61,9 +61,10 @@ padding-top: 70px;
 }
 
 .greyframe{
-  border: 3px solid #DCDCDC;
+  border: 3px solid #F5F5DC;
   margin-top: 2rem;
   box-shadow: 0 2px 2px rgba(0, 0, 0, .25);
+
   }
 
   /* The typing effect */
@@ -82,11 +83,18 @@ padding-top: 70px;
 .padt {
   padding-top: 2rem;
   padding-bottom: 0.5rem;
+
 }
   .slide div {
      height: 30rem;
-     border: 1px solid white;
      width: auto;
+   }
+
+
+   .sectionclass {
+     border-top: 4px solid #F5F5DC;
+     border-bottom: 4px solid #F5F5DC;
+     box-shadow: 0 2px 2px rgba(0, 0, 0, .25);
    }
 
    .slide div img {
@@ -322,7 +330,6 @@ padding-bottom: 0;
   margin-bottom: 10rem;:
 }
 .farmHouse {
-
 
  }
 
@@ -667,9 +674,9 @@ box-shadow: 0 2px 2px rgba(0, 0, 0, .25);
     background-color: #434c50;
     min-height: 100vh;
     font: normal 16px sans-serif;
-    padding: 40px 0;
-}
+    padding-bottom: 40px;
 
+}
 .container.gallery-container {
     background-color: #fff;
     color: #35373a;
