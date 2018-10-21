@@ -16,6 +16,9 @@ body {
 .glomarb {
   margin-bottom: 30px;
 }
+p {
+    text-align: justify;
+}
 /*------------------------------------*\
   #header/Nav
 \*------------------------------------*/
@@ -181,7 +184,7 @@ padding-top: 70px;
   }
   .smframe3 {
 
-  width: 16rem;
+
   height: 14rem;
   border: 3px solid white;
   margin-top: 2rem;
@@ -271,16 +274,24 @@ padding-top: 70px;
 .armando {
   background-image: url("../images/rsz_armando.jpg");
   background-repeat: no-repeat;
+  max-width: 400px;
   background-position: center;
   background-size: cover;
   min-height:690px;
-  border: 10px solid #F5F5DC;
+  border: 6px solid #F5F5DC;
   box-shadow: 0 2px 2px rgba(0, 0, 0, .25);
+  margin-left: 60px;
+  margin-right: 60px;
 
 
 }
 
-
+@media only screen and (max-width: 400px) {
+    .armando {
+      margin-left: 5px;
+      margin-right: 5px;
+    }
+}
 
 
 
@@ -571,7 +582,7 @@ margin-top: 2rem;
 min-width: 360px;
 height: 22rem;
 margin: auto;
-border: 10px solid #F5F5DC;
+border: 6px solid #F5F5DC;
 margin-top: 2rem;
 box-shadow: 0 2px 2px rgba(0, 0, 0, .25);
 }
