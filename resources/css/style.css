@@ -68,7 +68,7 @@ padding-top: 70px;
   margin: auto;
   background-size: cover;
   height: 30em;
-  width: 50em;
+  width: 40em;
 }
 
 .greyframe{
@@ -88,16 +88,16 @@ padding-top: 70px;
   .cap {
   height: auto;
   width: 100%;
+  padding-top: 30px;
+  padding-bottom: 150px;
+  color:#AAAFAA;
+
 
   }
-  .nudgeright {
+.wificenter{
+margin:auto;
 
-
-    margin-top: 10px;
-    margin-right: 100px;
-    margin-bottom: 50px;
-    margin-left: 70px;
-  }
+}
   .wifi-symbol {
     display: none;
   }
@@ -263,9 +263,7 @@ padding-top: 70px;
 /*------------------------------------*\
   #The Three Amigos
 \*------------------------------------*/
-.pad1 {
-  padding-bottom: 1rem;
-}
+
 .padtop {
   padding-top: 4rem;
 }
@@ -328,13 +326,23 @@ padding-top: 70px;
     padding-bottom: 30px;
   }
   .smframe3 {
-
-
   height: 14rem;
   border: 3px solid white;
   margin-top: 2rem;
   box-shadow: 0 2px 2px rgba(0, 0, 0, .25);
   }
+
+  @media only screen and (min-width: 400px) {
+      .hideb {
+      display:none;
+      }
+  }
+  @media only screen and (max-width: 400px) {
+      .cap {
+    padding-bottom: 50px;
+      }
+  }
+  /*reduce padding under high speed internet */
   @media only screen and (min-width: 400px) {
       .smframe3 {
       min-width: 360px;
@@ -385,7 +393,10 @@ padding-top: 70px;
 \*------------------------------------*/
 /*white in top conatiner above*/
 
-
+#mar {
+  margin-left: 0;
+  margin-right: 0;
+}
 
 
 
@@ -812,8 +823,9 @@ box-shadow: 0 2px 2px rgba(0, 0, 0, .25);
     .stone2 {
       margin: auto;
       background-size: cover;
-      height: 45vmin;
-      width: 80vmin;
+      height: 40vmin;
+      width: auto;
+
     }
 
 }
@@ -824,6 +836,7 @@ box-shadow: 0 2px 2px rgba(0, 0, 0, .25);
       background-size: cover;
       height: 40vmin;
       width: auto;
+
     }
 }
 /*Gallery*/
