@@ -172,8 +172,6 @@ padding-top: 70px;
  padding-top: 30px;
  padding-bottom: 60px;
  color:#AAAFAA;
-
-
  }
 
 .wificenter{
@@ -337,6 +335,7 @@ margin:auto;
   }
   .smframe3 {
   height: 14rem;
+  width: auto;
   border: 3px solid white;
   margin-top: 2rem;
   box-shadow: 0 2px 2px rgba(0, 0, 0, .25);
@@ -355,7 +354,7 @@ margin:auto;
   /*reduce padding under high speed internet */
   @media only screen and (min-width: 400px) {
       .smframe3 {
-      min-width: 360px;
+
       }
   }
 
@@ -428,6 +427,12 @@ margin:auto;
   box-shadow: 0 10px 20px rgba(0,0,0,0.19)
 }
 
+
+@media only screen and (max-width: 400px) {
+     .transfers{
+    width: 90%;
+    }
+}
 /*------------------------------------*\
   #footer
 \*------------------------------------*/
@@ -488,7 +493,10 @@ margin:auto;
   margin-right: 20px;
   margin-left: 20px;
 }
-
+.mar10{
+  margin-right: 10px;
+  margin-left: 10px;
+}
 
 .kaki {
       background-color: #AAAFAA;
@@ -764,7 +772,7 @@ margin-top: 2rem;
 .mdframe {
 
 
-min-width: 360px;
+width: 90%;
 height: 22rem;
 margin: auto;
 border: 6px solid #F5F5DC;
