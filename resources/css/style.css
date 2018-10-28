@@ -54,8 +54,8 @@ padding-top: 70px;
   blink-caret .75s step-end infinite;
 }
  .wrap  {
-   padding-left: 8%;
-   padding-right: 10%;
+
+   padding-right: 5%;
  }
 
 .pad2top {
@@ -136,6 +136,7 @@ padding-top: 70px;
    width: auto;
    border: 2px;
    line-height: 1.7;
+   margin-bottom: 100px;
 
  }
  .smframe {
@@ -382,7 +383,10 @@ margin:auto;
 
 .vidtopmar {
   margin-top: 70px;
+  margin-bottom: 20px;
 }
+
+
 
 @media only screen and (max-width: 400px) {
     #hid {
@@ -401,9 +405,17 @@ margin:auto;
 
 
 }
+/*------------------------------------*\
+                transfers
+\*------------------------------------*/
 
-
-
+.transfers {
+  width:60%;
+  height:auto;
+  margin: auto;
+  padding-bottom: 20px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19)
+}
 
 /*------------------------------------*\
   #footer
@@ -424,7 +436,9 @@ margin:auto;
     }
 }
 
-
+.footmar {
+  margin-top: 20px;
+}
 /*------------------------------------*\
   #local Aminities Page
 \*------------------------------------*/
