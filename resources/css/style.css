@@ -44,15 +44,7 @@ padding-top: 70px;
 /*------------------------------------*\
   # Top Container
 \*------------------------------------*/
-.typewriter h4 {
-  overflow: hidden; /* Ensures the content is not revealed until the animation */
-  white-space: nowrap; /* Keeps the content on a single line */
-  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-  letter-spacing: .15em; /* Adjust as needed */
-  animation:
-  typing 2s steps(40, end),
-  blink-caret .75s step-end infinite;
-}
+
  .wrap  {
 
    padding-right: 5%;
@@ -78,11 +70,6 @@ padding-top: 70px;
 
   }
 
-  /* The typing effect */
-  @keyframes typing {
-    from { width: 0 }
-    to { width: 100% }
-  }
 
 /*------------------------------------*\
   #slider
@@ -314,6 +301,26 @@ margin:auto;
    }
  }
 
+/*new script css*/
+.ml9 {
+  position: relative;
+  font-weight: 200;
+  font-size: 2em;
+}
+.ml9 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.2em;
+  padding-right: 0.05em;
+  padding-bottom: 0.1em;
+  overflow: hidden;
+}
+
+.ml9 .letter {
+  transform-origin: 50% 100%;
+  display: inline-block;
+  line-height: 1em;
+}
 
  /*wifi signal end*/
  /*------------------------------------*\
@@ -363,6 +370,10 @@ margin:auto;
      background-size: cover;
      height: 18rem;
 
+
+ }
+ .quotepic:hover {
+   opacity: 0.9;
  }
   .pad2bot {
      padding-bottom: 2rem;
@@ -800,6 +811,7 @@ box-shadow: 0 2px 2px rgba(0, 0, 0, .25);
     background-color: #F5F5DC;
 
 }
+
 /*Gallery css*/
 .title p {
   font-family: 'Shadows Into Light Two', cursive;

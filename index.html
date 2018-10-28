@@ -62,9 +62,14 @@ Here -->
         <div class="farmHouse pad2top co l-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12">
           <img src="./resources/images/FarmHouse.jpg" class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 img-responsive">
         </div>
-      <wrapper class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 typewriter">
+      <wrapper class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12">
         <div class="wrap">
-          <h2 class="pad2top">Quinta Dos Brejos(Farm of Brejos)</h2>
+
+          <h2 class="ml9 text-center pad2top">
+            <span class="text-wrapper">
+              <span class="letters">Quinta Dos Brejos(Farm of Brejos)</span>
+            </span>
+          </h2>
           <p>Albufeira is one of the most popular Tourist destinations in Portugals Algarve
             Built on an old farm, this beautiful condominium has great character, the original stylish farmhouse pictured left overlooks the apartment and can be viewed from the bedroom window.<br>
             The area surronding <b>Quinta Dos Brejos</b> is known as the sport area, home to the Albufeira stadium and the skate park it has become a highly sought after Area for buyers in recent years.<br>
@@ -149,6 +154,7 @@ Here -->
         </div>
       </div>
       <div class="three col-lg-4 col-md-12 col-sm-12 col-xs-12"><h4 class="text-center pad2top">Albufeira Old Town</h4>
+
         <div class="smframe oldtown zoom"></div>
         <div class="marRL"><p><br><b>ALBUFEIRA OLD TOWN SQUARE</b> (Jardim Público de Albufeira) is the beating heart of the atmospheric Albufeira Old Town.This tree-shaded old town square offers superb dining excellent choice of restaurants and bars, also great for people watching, shopping or just watching the day drift by. <br>Cobblestone streets with mosaic patterns lead in all directions from the square and then weave around the Old Town.<br> Visit Albufeira Old Town Square at any time of the day to witness a true essence of this ancient fishing village. </p>
         </div>
@@ -173,10 +179,15 @@ Here -->
         <div class="wifi-circle third"></div>
         <div class="wifi-circle fourth"></div>
       </div>
-    <div class="cap"><h4 class="text-center"><b>High speed internet</b></h4></div>
-  </div>
-</div>
+<!-- testing here -->
 
+        </div>
+      </div>
+      <h4 class="ml9 text-center cap">
+        <span class="text-wrapper">
+          <span class="letters">High speed Internet</span>
+        </span>
+      </h4>
 
 
 
@@ -341,10 +352,30 @@ Here -->
     <script async defer
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAGA18i4a4E45gItHRQKXwTb9ElpDmvDkE&callback=initMap">
     </script>
+<!--moving wave internet  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+<!-- wrap every letter in a span -->
+<script>$('.ml9 .letters').each(function(){
+  $(this).html($(this).text().replace(/([^\x00-\x80]|\w)/g, "<span class='letter'>$&</span>"));
+});
 
-
-
-
+anime.timeline({loop: true})
+  .add({
+    targets: '.ml9 .letter',
+    scale: [0, 1],
+    duration: 1500,
+    elasticity: 600,
+    delay: function(el, i) {
+      return 45 * (i+1)
+    }
+  }).add({
+    targets: '.ml9',
+    opacity: 0,
+    duration: 1000,
+    easing: "easeOutExpo",
+    delay: 1000
+  });
+ </script>
 
 </body>
 </html>
