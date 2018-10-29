@@ -54,14 +54,13 @@ padding-top: 70px;
    padding-top: 2rem;
 }
 
-.stone2 {
-  background-image: url("../images/stone2.jpg");
-  background-repeat: no-repeat;
-  margin: auto;
-  background-size: cover;
-  height: 30em;
-  width: 40em;
+.farmhouse {
+
+
+
+
 }
+
 
 .greyframe{
   border: 3px solid #F5F5DC;
@@ -393,7 +392,7 @@ margin:auto;
 
 .vidtopmar {
   margin-top: 70px;
-  margin-bottom: 20px;
+  margin-bottom: 70px;
 }
 
 
@@ -403,7 +402,13 @@ margin:auto;
       display: none;
     }
 }
+/*------------------------------------*\
+  location
+\*------------------------------------*/
+.padloc{
+padding-bottom: 4rem;
 
+}
 /*------------------------------------*\
   #Google maps
 \*------------------------------------*/
@@ -534,9 +539,7 @@ padding-bottom: 0;
 .marb{
   margin-bottom: 10rem;:
 }
-.farmHouse {
- height: 80%;
- }
+
 
  .firstdiv {
    height: 800px;
