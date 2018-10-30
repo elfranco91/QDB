@@ -62,7 +62,7 @@ padding-top: 70px;
   padding-top: 35px;
 
 }
-@media only screen and (max-width: 400px) {
+@media only screen and (min-width: 400px) {
     .framhouse img {
       height: 100%;
       width: 100%;
