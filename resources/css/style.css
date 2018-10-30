@@ -496,12 +496,6 @@ padding-bottom: 4rem;
     }
 }
 
-
-
-
-/*------------------------------------*\
-  #local Aminities
-\*------------------------------------*/
 .marRL{
   margin-right: 20px;
   margin-left: 20px;
@@ -537,10 +531,7 @@ padding-bottom: 0;
   margin-right: 30px;
 }
 
-.padRL{
-  padding-left:250px;
-  padding-right: 250px;
-}
+
 .marL{
   margin-left: 30px;
 }
@@ -562,6 +553,21 @@ padding-bottom: 0;
    #rdpad
  \*------------------------------------*/
 
+
+  .strech-body {
+  height: 1000px;
+  width: auto;
+  }
+  .getting-around {
+    padding-top: 30px;
+    margin-left:200px;
+    margin-right: 200px;
+    padding-bottom: 30px;
+    margin-top: 30px;
+
+
+
+  }
  @media only screen and (max-width: 400px) {
      .rdpad {
        padding-left: 5px;
