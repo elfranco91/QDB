@@ -103,7 +103,7 @@ padding-top: 70px;
 
   @media only screen and (min-width: 710px) {
       .greyframe {
-        width:auto;
+        width:100vmin;
           height: 15rem;
       }
       .farmhouseimg {
@@ -111,7 +111,12 @@ padding-top: 70px;
   }
 }
 
-
+@media only screen and (max-width: 410px) {
+.farmhouseimg {
+ height: 80vmin;
+ width: auto;
+}
+}
 /*------------------------------------*\
   #slider
 \*------------------------------------*/
