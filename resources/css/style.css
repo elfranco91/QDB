@@ -85,7 +85,7 @@ padding-top: 70px;
     border-radius: 20px;
     margin-left:30px;
     margin-right: 20px;
-    height:80vmin;
+    height:100vmin;
 }
 .greyframe{
   background-image: url("../images/stone2.jpg");
@@ -99,9 +99,17 @@ padding-top: 70px;
   background-position: center;
   background-size: cover;
   box-shadow: 0 2px 2px rgba(0, 0, 0, .25);
-
   }
 
+  @media only screen and (min-width: 710px) {
+      .greyframe {
+        width:auto;
+          height: 15rem;
+      }
+      .farmhouseimg {
+      height: 120vmin;
+  }
+}
 
 
 /*------------------------------------*\
@@ -486,11 +494,7 @@ padding-bottom: 4rem;
   text-align: center;
   /*padtop in The three amigios above*/
 }
-@media only screen and (max-width: 580px) {
-    #hid{
-      display: none;
-    }
-}
+
 @media only screen and (min-width: 580px) {
     #show{
       display: none;
@@ -498,7 +502,7 @@ padding-bottom: 4rem;
 }
 
 .footmar {
-  margin-top: 20px;
+  margin-top: 200px;
 }
 /*------------------------------------*\
   #local Aminities Page
