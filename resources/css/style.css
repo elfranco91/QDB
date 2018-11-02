@@ -108,9 +108,9 @@ padding-top: 70px;
         width: auto;
           height: 15rem;
       }
-      .farmhouseimg {
+    /*  .farmhouseimg {
       height: 120vmin;
-  }
+  }*/
 }
 @media only screen and (max-width: 400px) {
     .greyframe {
