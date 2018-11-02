@@ -85,8 +85,6 @@ padding-top: 70px;
     border-radius: 20px;
     margin-left:30px;
     margin-right: 20px;
-
-
     min-height: 1000px;
 }
 .greyframe{
@@ -108,18 +106,18 @@ padding-top: 70px;
         width: auto;
           height: 15rem;
       }
-    /*  .farmhouseimg {
-      height: 120vmin;
-  }*/
 }
 @media only screen and (max-width: 400px) {
     .greyframe {
         max-width: 300px;
         height: 15rem;
   }
-
+  .farmhouseimg {
+  min-height: 400px;
+  margin-left: 0px;
+  margin-right: 0px;
 }
-
+}
 
 /*------------------------------------*\
   #slider
