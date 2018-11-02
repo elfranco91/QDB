@@ -85,9 +85,9 @@ padding-top: 70px;
     border-radius: 20px;
     margin-left:30px;
     margin-right: 20px;
-    height:100vmin;
 
-    min-height: 400px;
+
+    min-height: 1000px;
 }
 .greyframe{
   background-image: url("../images/stone2.jpg");
