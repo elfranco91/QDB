@@ -87,6 +87,7 @@ padding-top: 70px;
     margin-right: 20px;
     height:100vmin;
     min-width: 400px;
+    min-height:400px;
 }
 .greyframe{
   background-image: url("../images/stone2.jpg");
