@@ -116,6 +116,7 @@ padding-top: 70px;
   @media only screen and (max-width: 400px) {
   .farmhouseimg {
   min-height: 400px;
+  max-width: 300px;
   margin-left: 0px;
   margin-right: 0px;
 }
