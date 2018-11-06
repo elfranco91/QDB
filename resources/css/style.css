@@ -118,10 +118,36 @@ padding-top: 70px;
   #slider
 \*------------------------------------*/
 .frame {
-  margin-top: 1rem;
-  width: 70%;
-}
 
+  width: 60%;
+  background:#FFF;
+  margin:40px auto;
+  
+}
+.effect5
+{
+  position: relative;
+}
+.effect5:before, .effect5:after
+{
+  z-index: -1;
+  position: absolute;
+  content: "";
+  bottom: 25px;
+  left: 10px;
+  width: 50%;
+  top: 80%;
+  max-width:300px;
+  background: #777;
+  box-shadow: 0 35px 20px #777;
+  transform: rotate(-8deg);
+}
+.effect5:after
+{
+  transform: rotate(8deg);
+  right: 10px;
+  left: auto;
+}
 .padt {
   padding-top: 2rem;
   padding-bottom: 0.5rem;
@@ -133,11 +159,7 @@ padding-top: 70px;
    }
 
 
-   .sectionclass {
-     border-top: 2px solid #F5F5DC;
-     border-bottom: 2px solid #F5F5DC;
-     box-shadow: 0 2px 2px rgba(0, 0, 0, .25);
-   }
+
 
    .slide div img {
      object-position: center;
