@@ -25,7 +25,6 @@ div i p {
   text-align: center;
 }
 
-
 /*------------------------------------*\
   #header/Nav
 \*------------------------------------*/
@@ -52,12 +51,9 @@ padding-top: 70px;
    padding-top: 2rem;
 }
 
-
-
 .farmhouse {
   margin-bottom: 30px;
   margin-top: 30px;
-
 
 }
 .padleft {
@@ -77,10 +73,14 @@ padding-top: 70px;
     height: 1000px;
 
 }
-
-
-
-
+/* On screens that are 768px or less, set the background color to blue */
+@media screen and (max-width: 768px) {
+  body {
+    margin-left:0px;
+    margin-right: 0px;
+    height: 600px;
+  }
+}
 .greyframe {
   background-image: url("../images/stone2.jpg");
   height: 300px;
@@ -142,9 +142,6 @@ padding-top: 70px;
      height: 30rem;
      width: auto;
    }
-
-
-
 
    .slide div img {
      object-position: center;
