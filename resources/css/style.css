@@ -464,7 +464,7 @@ box-shadow: 0 2px 2px rgba(0, 0, 0, .25);
   .vidframe {
     margin-left:0px;
     margin-right: 0px;
-    width: 20rem;
+    width: auto;
   }
 
 
@@ -498,7 +498,7 @@ box-shadow: 0 2px 2px rgba(0, 0, 0, .25);
   .mapframe{
     margin-left:0px;
     margin-right: 0px;
-    width: 20rem;
+    width: auto;
   }
 
 
