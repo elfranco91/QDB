@@ -73,9 +73,10 @@ padding-top: 70px;
     height: 1000px;
 
 }
-/* On screens that are 768px or less, set the background color to blue */
+/* On screens that are 768px or less, change marhin and height
+*/
 @media screen and (max-width: 768px) {
-  body {
+  .farmhouseimg {
     margin-left:0px;
     margin-right: 0px;
     height: 600px;
