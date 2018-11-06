@@ -73,7 +73,7 @@ padding-top: 70px;
     height: 1000px;
 
 }
-/* On screens that are 768px or less, change marhin and height
+/* On screens that are 768px or less, change margin and height
 */
 @media screen and (max-width: 768px) {
   .farmhouseimg {
@@ -458,13 +458,16 @@ border: 3px solid white;
 margin-top: 2rem;
 box-shadow: 0 2px 2px rgba(0, 0, 0, .25);
 }
+/* On screens that are 768px or less, change margin and height
+*/
+@media screen and (max-width: 768px) {
+  .vidframe {
+    margin-left:0px;
+    margin-right: 0px;
+    width: 20rem;
+  }
 
 
-@media only screen and (max-width: 400px) {
-    #hid {
-      display: none;
-    }
-}
 /*------------------------------------*\
   location
 \*------------------------------------*/
