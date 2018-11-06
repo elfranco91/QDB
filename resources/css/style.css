@@ -50,9 +50,6 @@ padding-top: 70px;
 .pad2top {
    padding-top: 2rem;
 }
-.pad3top {
-   padding-top: 3rem;
-}
 
 .farmhouse {
   margin-bottom: 30px;
@@ -83,7 +80,7 @@ padding-top: 70px;
     margin-left:0px;
     margin-right: 0px;
     height: 600px;
-    width: 100%;
+    width:100%;
   }
 }
 .greyframe {
@@ -171,7 +168,7 @@ padding-top: 70px;
   padding-top: 4rem;
 }
 .three {
-   height: 50rem;
+   height: 40rem;
    width: auto;
    border: 2px;
    line-height: 1.7;
@@ -403,7 +400,12 @@ margin:auto;
     padding-bottom: 50px;
       }
   }
+  /*reduce padding under high speed internet */
+  @media only screen and (min-width: 400px) {
+      .smframe3 {
 
+      }
+  }
 
 
 /*------------------------------------*\
@@ -465,8 +467,7 @@ box-shadow: 0 2px 2px rgba(0, 0, 0, .25);
     margin-right: 0px;
     width: auto;
   }
-
-
+}
 /*------------------------------------*\
   location
 \*------------------------------------*/
@@ -494,12 +495,11 @@ box-shadow: 0 2px 2px rgba(0, 0, 0, .25);
 }
 
 @media screen and (max-width: 768px) {
-  .mapframe{
+  .mapframe {
     margin-left:0px;
     margin-right: 0px;
     width: auto;
   }
-
 
 /*------------------------------------*\
                 transfers
