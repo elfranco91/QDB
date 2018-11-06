@@ -50,6 +50,9 @@ padding-top: 70px;
 .pad2top {
    padding-top: 2rem;
 }
+.pad3top {
+   padding-top: 3rem;
+}
 
 .farmhouse {
   margin-bottom: 30px;
@@ -400,12 +403,7 @@ margin:auto;
     padding-bottom: 50px;
       }
   }
-  /*reduce padding under high speed internet */
-  @media only screen and (min-width: 400px) {
-      .smframe3 {
 
-      }
-  }
 
 
 /*------------------------------------*\
