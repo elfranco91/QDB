@@ -81,16 +81,8 @@ padding-top: 70px;
     margin-left:30px;
     margin-right: 20px;
     min-height: 200px;
-    height: 80vmin;
-    min-width: 400px;
 }
-@media only screen and (max-width: 400px) {
-.farmhouseimg {
-min-height: 400px;
-max-width: 300px;
-margin-left: 0px;
-margin-right: 0px;
-}
+
 
 }
 
