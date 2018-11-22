@@ -18,11 +18,48 @@ body {
   margin-bottom: 200px;
 }
 
+
+a {
+  text-decoration: none;
+}
+h4 {
+ font-family: 'Shadows Into Light Two', cursive;
+ font-family: 'Merienda', cursive;
+}
+
+
+h2 {
+  font-family: 'Shadows Into Light Two', cursive;
+  font-family: 'Merienda', cursive;
+}
+
+.backh2 h2{
+  background-color: #CECECE;
+}
+
 p {
-    text-align: justify;
+font-family: 'Port Lligat Sans', sans-serif;
+font-family: 'Rajdhani', sans-serif;
+line-height: 30px;
+font-size: 1.3rem;
+
+}
+.quote {
+
+font-family: 'Port Lligat Sans', sans-serif;
+font-family: 'Rajdhani', sans-serif;
+color: white;
+font-weight: 500;
+line-height: 20px;
+padding-top: 1em;
 }
 div i p {
   text-align: center;
+}
+.divcenter {
+  margin: 0 auto;
+  width: 80%;
+
 }
 
 /*------------------------------------*\
@@ -62,17 +99,40 @@ padding-top: 70px;
 
 
 
-.farmhouseimg {
-    background-image: url("../images/FarmHouse.jpg");
+.brejosimg {
+
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    border-radius: 20px;
-    margin-left:30px;
-    margin-right: 20px;
-    height: 1000px;
+    margin-left:0px;
+    margin-right: 0px;
+    height: 800px;
+    width:100%;
+    padding-bottom: 0;
+    margin-bottom: 0;
 
 }
+.jumbotronbrejos {
+  padding-top: 50px;
+  padding-bottom: 0;
+  margin-bottom: 200px;
+  height: 700px;
+}
+.relspan {
+  position: relative;
+}
+.jumbospan{
+  position: absolute;
+    top: 15px;
+    right: 30px;
+
+    color:white;
+}
+#fontI {
+    font-size: 60px;
+    opacity: 0.4;
+}
+
 /* On screens that are 768px or less, change margin and height
 */
 @media screen and (max-width: 768px) {
@@ -85,11 +145,14 @@ padding-top: 70px;
 }
 .greyframe {
   background-image: url("../images/stone2.jpg");
-  height: 300px;
+  height: 500px;
   border-radius: 12px;
   width: auto;
   border: 3px solid #F5F5DC;
   margin: auto;
+  background-attachment: fixed;
+  margin-bottom:100px;
+
 
   padding-top: 1px;
   background-repeat: no-repeat;
@@ -353,6 +416,8 @@ margin:auto;
   position: relative;
   font-weight: 200;
   font-size: 2em;
+
+
 }
 .ml9 .text-wrapper {
   position: relative;
@@ -409,22 +474,24 @@ margin:auto;
 
 
 /*------------------------------------*\
-  #Quote
+  #Quote index197
 \*------------------------------------*/
  .quotepic {
      background-image: url("../images/beach.jpg");
      background-repeat: no-repeat;
      background-position: center;
      background-size: cover;
-     height: 18rem;
+
+     height: 25rem;
+     background-attachment: fixed;
 
 
  }
  .quotepic{
-   opacity:0.9;
+   opacity:1;
  }
  .quotepic:hover {
-   opacity: 1;
+   opacity: 0.9;
  }
   .pad2bot {
      padding-bottom: 2rem;
@@ -474,6 +541,9 @@ box-shadow: 0 2px 2px rgba(0, 0, 0, .25);
 .padloc{
 padding-bottom: 4rem;
 
+}
+.parallax {
+   background-attachment: fixed;
 }
 /*------------------------------------*\
   #Google maps
@@ -644,45 +714,13 @@ padding-bottom: 0;
  }
 
 
-  a {
-    text-decoration: none;
-  }
- h4 {
-   font-family: 'Shadows Into Light Two', cursive;
-   font-family: 'Merienda', cursive;
-  }
 
-
-  h2 {
-    font-family: 'Shadows Into Light Two', cursive;
-    font-family: 'Merienda', cursive;
-  }
-
-  .backh2 h2{
-    background-color: #CECECE;
-  }
-
-p {
-  font-family: 'Port Lligat Sans', sans-serif;
-  font-family: 'Rajdhani', sans-serif;
-  line-height: 30px;
-
-}
-.quote {
-
-  font-family: 'Port Lligat Sans', sans-serif;
-  font-family: 'Rajdhani', sans-serif;
-  color: white;
-  font-weight: 500;
-  line-height: 20px;
-  padding-top: 1em;
-}
 .pushi {
-  padding-top: 2em;
+  padding-top: 5em;
 }
 
 
-}
+
 .row-centered {
 text-align:center;
 }
