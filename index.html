@@ -56,7 +56,7 @@ Here -->
 
 <body>
 <!-- -----------------Top container--------------- -->
-<div class="jumbotron jumbotron-fluid jumbotronbrejos">
+<div class="jumbotron jumbotron-fluid jumbotronbrejos hideformob">
   <div class="container-fluid relspan">
 
 <img class="brejosimg" src="resources\images\brejosHouse.jpg">
@@ -64,11 +64,24 @@ Here -->
 
   </div>
 </div>
-<div>
+
+<!--for mobile site   -->
+  <div class="container-fluid navpad hideshow">
+   <div class="row">
+     <div class="farmhouse farmhouseimg pad2top col-xl-5 col-lg-5 col-md-12 col-sm-12 col-xs-12"></div>
+     </div> <!-- end of wrap-->
+
+
+   </div>  <!-- end of row -->
+ </div>
 <div class="divcenter  col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
           <h2 class="ml9 pad2top text-center">
             <span class="text-wrapper" >
-              <span class="letters">Quinta Dos Brejos(Farm of Brejos)</span>
+<!-- show farm of brejos on bigger screen -->
+              <span class="letters hideformob">Quinta Dos Brejos(Farm of Brejos)</span>
+            </span>
+<!-- remove farm of brejos on bigger screen -->
+            <span class="letters hideshow">Quinta Dos Brejos</span>
             </span>
           </h2>
     <div class=" bg-light">
@@ -97,7 +110,7 @@ Here -->
 
 
   <!-- ---------------Slider------------------  -->
-  <section class="hide">
+  <section class="hideslide">
     <div class="container-fluid frame effect5 padt mar-bot-200">
       <div class="slide">
         <div><img src="resources\images\entrance2.jpg"/>Entrance</div>
