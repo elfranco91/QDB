@@ -88,9 +88,7 @@ padding-top: 70px;
    padding-top: 2rem;
 }
 
-.farmhouse {
-  margin-bottom: 30px;
-}
+
 .padleft {
   padding-left:100px
 }
@@ -107,7 +105,6 @@ padding-top: 70px;
     width:100%;
     padding-bottom: 0;
     margin-bottom: 0;
-
 }
 
 
@@ -163,11 +160,12 @@ padding-top: 70px;
   background-size: cover;
   margin-left:0px;
   margin-right: 0px;
-
-  min-height:690px;
+  min-height: 690px;
   }
 
-
+  .farmhouse {
+    margin-bottom: 30px;
+  }
 
   .hideshow {
     display: none;
