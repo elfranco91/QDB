@@ -19,8 +19,8 @@ body {
 }
 .padLR {
 
-  padding-left: 40px;
-  padding-right: 40px
+  padding-left: 60px;
+  padding-right: 60px
 }
 
 a {
@@ -63,9 +63,9 @@ div i p {
 /* text under jumbotron */
 .divcenter {
   margin: 0 auto;
-  width: 80%;
+  width: 80rem;
 }
-@media only screen and (min-width: 400px) {
+@media only screen and (max-width: 400px) {
   .divcenter {
     width: 100%;
   }
@@ -242,7 +242,7 @@ padding-top: 70px;
 \*------------------------------------*/
 
 .padtop {
-  padding-top: 4rem;
+  padding-top: 10rem;
 }
 .three {
    height: 40rem;
@@ -253,7 +253,13 @@ padding-top: 70px;
  }
  @media only screen and (max-width: 400px) {
    .three {
-     height: 60px;
+     height: 50rem;
+   }
+ }
+ @media only screen and (max-width: 400px) {
+   .padLR {
+    padding-left: 5px;
+    padding-right: 5px;
    }
  }
  .smframe {
@@ -294,11 +300,7 @@ padding-top: 70px;
    background-size: cover;
    transition: transform .2s; /* Animation */
  }
- @media only screen and (max-width: 400px) {
-   .three {
-     height: 60px;
-   }
- }
+
  /*----------------wifi signal-----------*/
 
  .cap {
