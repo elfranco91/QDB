@@ -60,16 +60,7 @@ padding-top: 1em;
 div i p {
   text-align: center;
 }
-/* text under jumbotron */
-.divcenter {
-  margin: 0 auto;
-  width: 80rem;
-}
-@media only screen and (max-width: 400px) {
-  .divcenter {
-    width: 100%;
-  }
-}
+
 /*------------------------------------*\
   #header/Nav
 \*------------------------------------*/
@@ -99,7 +90,8 @@ padding-top: 70px;
 
 .farmhouse {
   margin-bottom: 30px;
-  margin-top: 30px;
+  height: 80vim;
+
 
 }
 .padleft {
@@ -137,6 +129,17 @@ padding-top: 70px;
 
     color:white;
 }
+
+/* text under jumbotron */
+.divcenter {
+  margin: 0 auto;
+  width: 80rem;
+}
+@media only screen and (max-width: 400px) {
+  .divcenter {
+    width: 100%;
+  }
+}
 #fontI {
     font-size: 60px;
     opacity: 0.4;
@@ -150,16 +153,9 @@ padding-top: 70px;
     display: none;
     }
 }
-.hideshow {
-  display: none;
-}
-@media only screen and (max-width: 975px) {
-    .hideshow {
-    display: block;
-    }
-  }
-/* On screens that are 768px or less, change margin and height
-*/
+
+
+/* on screens that are less than 975px */
 
   .farmhouseimg {
   background-image: url("../images/farmhouse.jpg");
@@ -172,7 +168,14 @@ padding-top: 70px;
   width:100%;
   }
 
-
+  .hideshow {
+    display: none;
+  }
+  @media only screen and (max-width: 975px) {
+      .hideshow {
+      display: block;
+      }
+    }
 
 /*------------------------------------*\
   #slider
