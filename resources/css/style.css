@@ -162,19 +162,26 @@ padding-top: 70px;
     margin-right: 0px;
     min-height: 690px;
     width:100%;
-    display: none;
+
   }
 
   .farmhouse {
     margin-bottom: 30px;
-    min-height: 690px;
+    height:700px;
+    width: 100%;
+  }
+  .hidefarm {
+     display: none;
   }
   @media only screen and (max-width: 975px) {
       .farmhouseimg {
       display: block;
-
+      min-height: 600px;
       }
-    }
+      .hidefarm {
+        display: block;
+      }
+  }
 
 /*------------------------------------*\
   #slider
