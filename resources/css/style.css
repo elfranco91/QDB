@@ -154,25 +154,24 @@ padding-top: 70px;
 /* on screens that are less than 975px */
 
   .farmhouseimg {
-  background-image: url("../images/farmhouse.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  margin-left:0px;
-  margin-right: 0px;
-  min-height: 690px;
+    background-image: url("../images/farmhouse.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-left:0px;
+    margin-right: 0px;
+    min-height: 690px;
+    display: none;
   }
 
   .farmhouse {
     margin-bottom: 30px;
-  }
-
-  .hideshow {
-    display: none;
+    min-height: 690px;
   }
   @media only screen and (max-width: 975px) {
-      .hideshow {
+      .farmhouseimg {
       display: block;
+
       }
     }
 
