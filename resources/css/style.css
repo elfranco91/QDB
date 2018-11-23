@@ -90,10 +90,6 @@ padding-top: 70px;
 
 .farmhouse {
   margin-bottom: 30px;
-  height: 300px;
-  width: auto;
-
-
 }
 .padleft {
   padding-left:100px
@@ -166,8 +162,8 @@ padding-top: 70px;
   background-size: cover;
   margin-left:0px;
   margin-right: 0px;
-  height: 600px;
-  width:100%;
+  max-width: 400px;
+  min-height:690px;
   }
 
   .hideshow {
