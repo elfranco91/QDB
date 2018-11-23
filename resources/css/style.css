@@ -90,7 +90,7 @@ padding-top: 70px;
 
 .farmhouse {
   margin-bottom: 30px;
-  height: 80vim;
+  height: 300px;
 
 
 }
@@ -144,6 +144,7 @@ padding-top: 70px;
     font-size: 60px;
     opacity: 0.4;
 }
+/* swap farmhouse photos on smaller screen due to bad resoloution */
 .hideformob {
 
   display: block;
