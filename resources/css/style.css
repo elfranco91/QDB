@@ -60,12 +60,16 @@ padding-top: 1em;
 div i p {
   text-align: center;
 }
+/* text under jumbotron */
 .divcenter {
   margin: 0 auto;
   width: 80%;
-
 }
-
+@media only screen and (min-width: 400px) {
+  .divcenter {
+    width: 100%;
+  }
+}
 /*------------------------------------*\
   #header/Nav
 \*------------------------------------*/
@@ -241,12 +245,16 @@ padding-top: 70px;
   padding-top: 4rem;
 }
 .three {
-   height: 50rem;
+   height: 40rem;
    width: auto;
    border: 2px;
    line-height: 1.7;
    margin-bottom: 100px;
-
+ }
+ @media only screen and (max-width: 400px) {
+   .three {
+     height: 60px;
+   }
  }
  .smframe {
 
@@ -285,6 +293,11 @@ padding-top: 70px;
    background-position: center;
    background-size: cover;
    transition: transform .2s; /* Animation */
+ }
+ @media only screen and (max-width: 400px) {
+   .three {
+     height: 60px;
+   }
  }
  /*----------------wifi signal-----------*/
 
@@ -586,7 +599,7 @@ box-shadow: 0 2px 2px rgba(0, 0, 0, .25);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 500px;
+    height: 700px;
     background-attachment: fixed;
     margin-bottom: 100px;
 }
