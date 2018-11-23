@@ -167,7 +167,7 @@ padding-top: 70px;
 
   .farmhouse {
     margin-bottom: 30px;
-    height:700px;
+    min-height:700px;
     width: 100%;
   }
   .hidefarm {
