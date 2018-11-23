@@ -444,9 +444,15 @@ margin:auto;
   position: relative;
   font-weight: 200;
   font-size: 2em;
-
-
 }
+/* reduce font size to fit on mobile */
+@media only screen and (max-width: 400px) {
+      .ml9 {
+    font-size: 1.8em;
+      }
+  }
+
+
 .ml9 .text-wrapper {
   position: relative;
   display: inline-block;
