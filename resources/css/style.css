@@ -93,26 +93,24 @@ padding-top: 70px;
   padding-left:100px
 }
 
-
-
 .brejosimg {
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 100%;
+    background-size: cover;
     margin-left:0px;
     margin-right: 0px;
     height: 800px;
     width:100%;
     padding-bottom: 0;
-    margin-bottom: 0;
+
 }
 
 
 .jumbotronbrejos {
   padding-top: 50px;
   padding-bottom: 0;
-  margin-bottom: 200px;
-  height: 700px;
+  margin-bottom: 50px;
+  height: 800px;
 }
 .relspan {
   position: relative;
@@ -121,7 +119,6 @@ padding-top: 70px;
   position: absolute;
     top: 15px;
     right: 30px;
-
     color:white;
 }
 
@@ -144,11 +141,15 @@ padding-top: 70px;
 
   display: block;
 }
+
 @media only screen and (max-width: 975px) {
     .hideformob {
     display: none;
     }
 }
+
+
+
 
 
 /* on screens that are less than 975px */
@@ -170,13 +171,26 @@ padding-top: 70px;
     min-height: 600px;
     width:100%
   }
+.hidefarm {
+  display: none;
+}
 
   @media only screen and (max-width: 975px) {
 
       .farmhouseimg {
         display: block;
       }
+      .hidefarm {
+        display: block;
+      }
   }
+  @media only screen and (max-width: 975px) {
+
+      .hidefarm {
+        display: none;
+      }
+  }
+
 
 /*------------------------------------*\
   #slider

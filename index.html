@@ -59,10 +59,10 @@ Here -->
 
 <!-- load this image on big screen -->
 <div class=" jumbotron jumbotron-fluid jumbotronbrejos hideformob">
-  <div class="container-fluid relspan">
+  <div class="container-fluid relspan " >
 
-<img class="brejosimg" src="resources\images\brejosHouse.jpg">
-<div class="jumbospan"><h4 id="fontI">Albufeira, Algarve Portugal</h4></div>
+<img class="brejosimg"  src="resources\images\brejosHouse.jpg">
+<div class="jumbospan relspan"><h4  id="fontI">Albufeira, Algarve Portugal</h4></div>
   </div>
 </div>
 
@@ -78,10 +78,10 @@ Here -->
           <h2 class="ml9 pad2top text-center">
             <span class="text-wrapper" >
 <!-- show farm of brejos on bigger screen -->
-              <span class="letters hideformob">Quinta Dos Brejos(Farm of Brejos)</span>
+              <span class="letters">Quinta Dos Brejos(Farm of Brejos)</span>
             </span>
-<!-- remove farm of brejos on bigger screen -->
-            <span class="letters hideshow">Quinta Dos Brejos</span>
+<!-- remove farm of brejos on smaller screen -->
+            <span class="letters hidefarm">Quinta Dos Brejos</span>
             </span>
           </h2>
     <div class="bg-light">
@@ -394,10 +394,6 @@ anime.timeline({loop: true})
     delay: 1000
   });
  </script>
-<script type="text/javascript">
-setTimeout(function() {
-    $('html').addClass('trans');
-}, 1000);body>
-</script>
+
 
 </html>
