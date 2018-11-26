@@ -99,10 +99,9 @@ padding-top: 70px;
     background-size: cover;
     margin-left:0px;
     margin-right: 0px;
-    height: 800px;
+    height: 30rem;
     width:100%;
     padding-bottom: 0;
-
 }
 
 
@@ -110,7 +109,7 @@ padding-top: 70px;
   padding-top: 50px;
   padding-bottom: 0;
   margin-bottom: 50px;
-  height: 800px;
+  height: 30rem;
 }
 .relspan {
   position: relative;
@@ -133,7 +132,7 @@ padding-top: 70px;
   }
 }
 #fontI {
-    font-size: 60px;
+    font-size: 2rem;
     opacity: 0.4;
 }
 /* swap farmhouse photos on smaller screen due to bad resoloution */
@@ -155,7 +154,7 @@ padding-top: 70px;
 /* on screens that are less than 975px */
 
   .farmhouseimg {
-    background-image: url("../images/farmhouse.jpg");
+    background-image: url("../images/FarmHouse.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -256,14 +255,14 @@ padding-top: 70px;
 
 
 /*------------------------------------*\
-  #The Three Amigos
+  #The y Amigos
 \*------------------------------------*/
 
 .padtop {
   padding-top: 10rem;
 }
 .three {
-   height: 40rem;
+   height: 50rem;
    width: auto;
    border: 2px;
    line-height: 1.7;
