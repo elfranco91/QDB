@@ -99,7 +99,7 @@ padding-top: 70px;
     background-size: cover;
     margin-left:0px;
     margin-right: 0px;
-    height: 30rem;
+    height: 60rem;
     width:100%;
     padding-bottom: 0;
 }
@@ -108,8 +108,8 @@ padding-top: 70px;
 .jumbotronbrejos {
   padding-top: 50px;
   padding-bottom: 0;
-  margin-bottom: 50px;
-  height: 30rem;
+  margin-bottom: 50rem;
+  height: 15rem;
 }
 .relspan {
   position: relative;
@@ -262,7 +262,7 @@ padding-top: 70px;
   padding-top: 10rem;
 }
 .three {
-   height: 50rem;
+   height: 45rem;
    width: auto;
    border: 2px;
    line-height: 1.7;
