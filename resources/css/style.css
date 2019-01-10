@@ -749,19 +749,29 @@ padding-bottom: 0;
    #rdpad
  \*------------------------------------*/
 
+.get-background {
+  background-image: url("../images/rooftop.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 
+}
+
+.getPad{
+  padding-top: 5rem;
+}
   .strech-body {
-  height: 1000px;
-  width: auto;
+  height: 100rem;
+
   }
   .getting-around {
-    padding-top: 30px;
-    margin-left:200px;
-    margin-right: 200px;
-    padding-bottom: 30px;
-    margin-top: 30px;
-    padding-left: 10px;
-    padding-right: 10px;
+    width: 60%;
+
+    margin: 0 auto;
+  }
+
+  #white {
+    color: white;
   }
  @media only screen and (max-width: 400px) {
      .rdpad {
