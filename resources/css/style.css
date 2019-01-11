@@ -184,9 +184,7 @@ padding-top: 70px;
       .farmhouseimg {
         display: block;
       }
-      .hidefarm {
-        display: block;
-      }
+
   }
   @media only screen and (max-width: 975px) {
 
@@ -260,12 +258,12 @@ padding-top: 70px;
 
 
 /*------------------------------------*\
-  #The y Amigos
+  The three Amigos
 \*------------------------------------*/
-
 .padtop {
   padding-top: 10rem;
 }
+
 .three {
    height: 45rem;
    width: auto;
@@ -284,6 +282,12 @@ padding-top: 70px;
     padding-right: 5px;
    }
  }
+ @media only screen and (max-width: 975px) {
+   .gap {
+     padding-top: 1rem;
+   }
+ }
+
  .smframe {
 
  width: 20rem;
