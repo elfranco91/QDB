@@ -263,7 +263,9 @@ padding-top: 70px;
 .padtop {
   padding-top: 10rem;
 }
-
+.padtop2 {
+  padding-top: 4rem;
+}
 .three {
    height: 45rem;
    width: auto;
@@ -274,6 +276,7 @@ padding-top: 70px;
  @media only screen and (max-width: 400px) {
    .three {
      height: 60rem;
+     margin-bottom: 50px;
    }
  }
  @media only screen and (max-width: 400px) {
@@ -707,7 +710,11 @@ box-shadow: 0 2px 2px rgba(0, 0, 0, .25);
       margin-right: 0px;
     }
 }
-
+@media only screen and (max-width: 1260px) {
+    .armando {
+      margin: 0 auto;
+    }
+}
 .marRL{
   margin-right: 20px;
   margin-left: 20px;
@@ -800,8 +807,7 @@ padding-bottom: 0;
       background-image: url("../images/clearSky.jpg");
     }
     .strech-body {
-    height: 60rem;
-
+    height: 70rem;
     }
   }
   #white {
