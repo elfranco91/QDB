@@ -60,7 +60,12 @@ padding-top: 1em;
 div i p {
   text-align: center;
 }
+@media only screen and (max-width: 768px) {
+  .hideQuote {
+    display: none;
+  }
 
+}
 /*------------------------------------*\
   #header/Nav
 \*------------------------------------*/
@@ -659,8 +664,19 @@ box-shadow: 0 2px 2px rgba(0, 0, 0, .25);
     #show{
       display: none;
     }
-}
+    .p {
+      font-size: 1rem;
+    }
 
+}
+@media only screen and (max-width: 580px) {
+    #hid{
+      display: none;
+    }
+    footer .padtop {
+      padding-top: 1rem;
+    }
+}
 .footmar {
   margin-top: 200px;
 }
