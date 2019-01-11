@@ -795,6 +795,15 @@ padding-bottom: 0;
       width: 100rem;
     }
   }
+  @media only screen and (max-width: 580px) {
+   .get-background {
+      background-image: url("../images/clearSky.jpg");
+    }
+    .strech-body {
+    height: 60rem;
+
+    }
+  }
   #white {
     color: white;
   }

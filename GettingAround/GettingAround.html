@@ -56,7 +56,7 @@
   <!----------- getting arround --------->
     <div >
       <div class="row strech-body col-lg-12 col-md-6 col-sm-12 col-xs-12">
-        <div class=" getPad getting-around" id="white">
+        <div class=" getPad getting-around " id="white">
           <h4 class="text-center">Getting Around Albufeira Portugal</h4>
           <p>
 Getting Around Albufeira is easy enough there are plenty of Bus Routes and Taxi's
@@ -65,15 +65,15 @@ The Bus stop is only a few mins walk from the apartment, busses come on time eve
 30 mins Mon-Friday or every hour on weekends and bank holidays.<br>
 
 
-Stay on the bus after the old town drop off and it will leave you outside the Modelo shopping centre a few more minute on the bus will bring you into Montechoro plenty of bars of restaurants here also, albeit the clientele is much younger here than the old townbr
+Stay on the bus after the old town drop off and it will leave you outside the Modelo shopping centre a few more minute on the bus will bring you into Montechoro where there is plenty of bars of restaurants, albeit the clientele is much younger here than the old townbr
 
-There are a few Taxi ranks doted around Albufeira and Montechoro, old town, outside Modello, Montechoro and you will also find taxis waiting outside Lidil and Aldi <br>
+There are a few Taxi ranks doted around Albufeira and Montechoro, old town, outside Modello, Montechoro strip and you will also find taxis waiting outside Lidil and Aldi <br>
 Taxis are cheap enough, they can be anything between
 €4.50 and €6  to get back to the apartment from the old town depending on the time of day. </p>
 
         </div>
-
       </div>
+
   </div>
 
     <footer class="kaki footmar">
@@ -112,12 +112,21 @@ Taxis are cheap enough, they can be anything between
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
 
 
     </script>
 
+    <script>
+        $(document).ready(function () {
+            if($(window).width() < 580) {
+               // $("#myDiv").addClass("myClass");
+               $("#removeClass").removeClass("get-background");
+            }
+        });
+    </script>
 
   </body>
 </html>
