@@ -282,11 +282,7 @@ padding-top: 70px;
     padding-right: 5px;
    }
  }
- @media only screen and (max-width: 975px) {
-   .gap {
-     padding-top: 1rem;
-   }
- }
+
 
  .smframe {
 
@@ -789,7 +785,16 @@ padding-bottom: 0;
 
     margin: 0 auto;
   }
-
+  @media only screen and (max-width: 1090px) {
+    .getting-around {
+      width: 90rem;
+    }
+  }
+  @media only screen and (max-width: 580px) {
+    .getting-around {
+      width: 100rem;
+    }
+  }
   #white {
     color: white;
   }
@@ -799,15 +804,9 @@ padding-bottom: 0;
        padding-right: 5px;
      }
  }
-
-
-
 .pushi {
   padding-top: 8em;
 }
-
-
-
 .row-centered {
 text-align:center;
 }
