@@ -175,9 +175,7 @@ padding-top: 70px;
     min-height: 600px;
     width:100%
   }
-.hidefarm {
-  display: none;
-}
+
 
   @media only screen and (max-width: 975px) {
 
@@ -192,6 +190,14 @@ padding-top: 70px;
         display: none;
       }
   }
+
+  @media only screen and (min-width: 975px) {
+
+      .hidef {
+        display: none;
+      }
+  }
+
 
 
 /*------------------------------------*\
