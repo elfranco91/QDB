@@ -800,14 +800,10 @@ padding-bottom: 0;
   }
   @media only screen and (max-width: 1090px) {
     .getting-around {
-      width: 90rem;
+      width: 80rem;
     }
   }
-  @media only screen and (max-width: 580px) {
-    .getting-around {
-      width: 100rem;
-    }
-  }
+
   @media only screen and (max-width: 580px) {
    .get-background {
       background-image: url("../images/clearSky.jpg");
@@ -819,12 +815,12 @@ padding-bottom: 0;
   #white {
     color: white;
   }
- @media only screen and (max-width: 400px) {
-     .rdpad {
-       padding-left: 5px;
-       padding-right: 5px;
-     }
- }
+  @media only screen and (max-width: 400px) {
+      .rdpad {
+        padding-left: 5px;
+        padding-right: 5px;
+      }
+  }
 .pushi {
   padding-top: 8em;
 }
