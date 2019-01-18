@@ -1,0 +1,9 @@
+# Rule 1
+User-agent: Googlebot
+Disallow:
+
+# Rule 2
+User-agent: *
+Allow: /
+
+Sitemap: https://elfranco91.github.io/QDB/sitemap.xml
