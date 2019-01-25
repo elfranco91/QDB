@@ -105,7 +105,7 @@ padding-top: 70px;
     margin-left:0px;
     margin-right: 0px;
     height: 60rem;
-    width:100vw;
+    width: 100vw;
     padding-bottom: 0;
 }
 
@@ -165,7 +165,7 @@ padding-top: 70px;
     background-size: cover;
     margin-left:0px;
     margin-right: 0px;
-    width:100vw;
+    width:100%;
     display: none;
     min-height: 600px;
   }
@@ -173,7 +173,7 @@ padding-top: 70px;
   .farmhouse {
     margin-bottom: 30px;
     min-height: 600px;
-    width:100%
+    width:100%;
   }
 
 
