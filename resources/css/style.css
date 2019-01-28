@@ -641,7 +641,9 @@ box-shadow: 0 2px 2px rgba(0, 0, 0, .25);
     height: 700px;
     background-attachment: fixed;
     margin-bottom: 100px;
+	 width: 100vw;
 }
+   
 /*------------------------------------*\
                 transfers
 \*------------------------------------*/
@@ -680,6 +682,9 @@ box-shadow: 0 2px 2px rgba(0, 0, 0, .25);
 }
 @media only screen and (max-width: 580px) {
     #hid{
+      display: none;
+    }
+	#hid2{s
       display: none;
     }
     footer .padtop {
