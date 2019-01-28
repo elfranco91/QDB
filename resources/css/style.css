@@ -204,9 +204,10 @@ padding-top: 70px;
   #slider
 \*------------------------------------*/
 .frame {
-    width: 80%;
-    background: #FFF;
-    margin: 40px auto;
+
+  width: 60%;
+  background:#FFF;
+  margin:40px auto;
 
 }
 .effect5
