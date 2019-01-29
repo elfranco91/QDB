@@ -366,8 +366,9 @@ margin:auto;
  }
 
  .wifi-symbol .wifi-circle {
-   box-sizing: border-box;
+   
    -moz-box-sizing: border-box;
+	 box-sizing: border-box;
    display: block;
    width: 100%;
    height: 100%;
@@ -684,7 +685,7 @@ box-shadow: 0 2px 2px rgba(0, 0, 0, .25);
     #hid{
       display: none;
     }
-	#hid2{s
+	#hid2{
       display: none;
     }
     footer .padtop {
@@ -735,7 +736,7 @@ box-shadow: 0 2px 2px rgba(0, 0, 0, .25);
   margin-left: 10px;
 }
 
-.orange {
+.kaki {
       background-color: #CB9231;
 }
 .grey {
