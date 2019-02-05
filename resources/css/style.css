@@ -101,10 +101,11 @@ padding-top: 70px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+	overflow: hidden;
     margin-left:0px;
     margin-right: 0px;
     height: 60rem;
-    width: 100%;
+    width: 100vw;
     padding-bottom: 0;
 }
 
