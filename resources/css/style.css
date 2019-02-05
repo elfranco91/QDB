@@ -162,9 +162,10 @@ padding-top: 70px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+	  overflow: hidden;
     margin-left:0px;
     margin-right: 0px;
-    width:100%;
+    width: 100vw;
     display: none;
     min-height: 600px;
   }
@@ -172,7 +173,7 @@ padding-top: 70px;
   .farmhouse {
     margin-bottom: 30px;
     min-height: 600px;
-    width:60vw;
+    width:100vw;
   }
 
 
@@ -1310,4 +1311,8 @@ label, input, textarea {
 .centerBox {
     margin: 0 auto;
     padding-top: 100px;
+}
+
+.nav-item {
+	padding-left: 20px;
 }
