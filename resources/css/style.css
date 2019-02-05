@@ -1297,7 +1297,7 @@ label, input, textarea {
 
 .contactPage {
     height: 100vh;
-    width: auto;
+    width: 100vw;
 }
 .centerForm {
   background-color: #DCDCDC;
