@@ -543,6 +543,8 @@ margin:auto;
      background-repeat: no-repeat;
      background-position: center;
      background-size: cover;
+	 width: 100vw;
+	 overflow: hidden;
      height: 500px;
      background-attachment: fixed;
  }
@@ -638,10 +640,11 @@ box-shadow: 0 2px 2px rgba(0, 0, 0, .25);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+	overflow: hidden;
     height: 700px;
     background-attachment: fixed;
     margin-bottom: 100px;
-	 width: 80vw;
+	 width: 100vw;
 }
    
 /*------------------------------------*\
