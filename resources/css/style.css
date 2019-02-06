@@ -1297,14 +1297,12 @@ label, input, textarea {
 
 .contactPage {
     height: 100vh;
-    width:100%;
+    width: 100%;
 }
 .centerForm {
   background-color: #DCDCDC;
-    width: 600px;
+    width: 25rem;
     height: 600px;
-
-   
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
