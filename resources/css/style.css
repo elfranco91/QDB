@@ -1122,3 +1122,8 @@ label, input, textarea {
     margin: 0 auto;
     padding-top: 100px;
 }
+
+.collapse li{
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+}
