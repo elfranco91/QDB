@@ -1129,3 +1129,7 @@ label, input, textarea {
 	padding-top: 1rem;
 	padding-bottom: 1rem;
 }
+
+.maxVW {
+	max-width: 100vw;
+}
