@@ -72,7 +72,7 @@ div i p {
     padding-top: 50px;
 }
 .navpadlocal {
-    padding-top: 70px;
+    padding-top: 80px;
 }
 /*------------------------------------*\
   # Top Container
@@ -671,6 +671,10 @@ footer .padtop {
 }
 .kaki {
     background-color: #CB9231;
+    background-image: -webkit-linear-gradient(5deg,rgba(203,146,49,1.00) 0%,rgba(255,206,0,1.00) 45.77%);
+    background-image: -moz-linear-gradient(5deg,rgba(203,146,49,1.00) 0%,rgba(255,206,0,1.00) 45.77%);
+    background-image: -o-linear-gradient(5deg,rgba(203,146,49,1.00) 0%,rgba(255,206,0,1.00) 45.77%);
+    background-image: linear-gradient(85deg,rgba(203,146,49,1.00) 0.00%,rgba(255,206,0,1.00) 45.77%);
 }
 .grey {
     background-color: #DCDCDC;
@@ -1126,10 +1130,21 @@ label, input, textarea {
 }
 
 .collapse li{
-    padding-top: 0.75rem;
-    padding-bottom: 0.75rem;
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
 }
 
 .maxVW {
 	max-width: 100vw;
+	
+}
+
+@media (max-width: 975px){
+.smframe {
+	width: 80vw; 
+	}
+}
+
+
+.class {
 }
