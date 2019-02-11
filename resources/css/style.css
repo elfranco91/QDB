@@ -591,7 +591,11 @@ div i p {
     height: auto;
     margin: auto;
     padding-bottom: 20px;
-    box-shadow: 0 10px 20px rgba(0,0,0,0.19)
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19);
+    background-image: -webkit-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(255,255,255,1.00) 46.63%,rgba(243,242,242,1.00) 70.98%,rgba(232,232,232,1.00) 100%);
+    background-image: -moz-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(255,255,255,1.00) 46.63%,rgba(243,242,242,1.00) 70.98%,rgba(232,232,232,1.00) 100%);
+    background-image: -o-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(255,255,255,1.00) 46.63%,rgba(243,242,242,1.00) 70.98%,rgba(232,232,232,1.00) 100%);
+    background-image: linear-gradient(180deg,rgba(255,255,255,1.00) 0%,rgba(255,255,255,1.00) 46.63%,rgba(243,242,242,1.00) 70.98%,rgba(232,232,232,1.00) 100%);
 }
 
 @media only screen and (max-width: 400px) {
@@ -810,7 +814,7 @@ footer .padtop {
     background-size: cover;
 }
 .getPad {
-    padding-top: 5rem;
+    padding-top: 7rem;
 }
 .strech-body {
     height: 1000px;
