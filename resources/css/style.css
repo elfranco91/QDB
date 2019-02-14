@@ -234,6 +234,7 @@ div i p {
 /*------------------------------------*\
   The three Amigos
 \*------------------------------------*/
+
 .padtop {
     padding-top: 5rem;
 }
@@ -264,10 +265,12 @@ div i p {
 .smframe {
     width: 20rem;
     height: 16rem;
-    margin: auto;
-    border: 3px solid white;
     margin-top: 2rem;
+    margin-bottom: auto;
+    border: 3px solid white;
     box-shadow: 0 2px 2px rgba(0, 0, 0, .25);
+    margin-left: auto;
+    margin-right: auto;
 }
 .zoom:hover {
     transform: scale(1.05); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
