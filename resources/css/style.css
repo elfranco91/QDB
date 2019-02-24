@@ -18,7 +18,11 @@ body {
 }
 .padLR {
     padding-left: 60px;
-    padding-right: 60px
+    padding-right: 60px;
+    padding-top: 20px;
+    border-radius: 2px 2px;
+    padding-bottom: 20px;
+    border-color: #CB9231;
 }
 a {
     text-decoration: none;
@@ -89,7 +93,7 @@ div i p {
 .brejosimg {
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: contain;
     overflow: hidden;
     margin-left: 0px;
     margin-right: 0px;
