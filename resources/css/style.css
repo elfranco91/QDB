@@ -298,7 +298,7 @@ div i p {
 @media only screen and (max-width: 400px) {
 .three {
     height: 60rem;
-    margin-bottom: 50px;
+
 }
 }
 
@@ -518,7 +518,11 @@ div i p {
     padding-bottom: 50px;
 }
 }
-
+@media only screen and (max-width: 400px) {
+p {
+    font-size: 16px;
+}
+}
 /*reduce padding under high speed internet */
 @media only screen and (min-width: 400px) {
 .smframe3 {
