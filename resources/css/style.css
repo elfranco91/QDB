@@ -292,12 +292,12 @@ div i p {
     width: auto;
     border: 2px;
     line-height: 1.7;
-    margin-bottom: 100px;
+
 }
 
 @media only screen and (max-width: 400px) {
 .three {
-    height: 60rem;
+    height: 80rem;
 }
 }
 
