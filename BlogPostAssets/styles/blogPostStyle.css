@@ -1,3 +1,5 @@
+
+
 @charset "UTF-8";
 #mainwrapper header {
 	/*Header */
@@ -70,25 +72,8 @@ header nav a {
 	padding-bottom: 11px;
 	padding-right: 2%;
 }
-footer article {
-	/* Footer articles */
-	width: 46%;
-	float: left;
-	padding-left: 2%;
-	padding-right: 2%;
-	text-align: justify;
-	font-family: source-sans-pro, sans-serif;
-	font-style: normal;
-	font-weight: 200;
-	color: rgba(146,146,146,1.00);
-}
-footer article h3 {
-	/* Footer article titles */
-	text-align: center;
-	font-family: montserrat, sans-serif;
-	font-style: normal;
-	font-weight: 400;
-}
+
+
 #mainContent {
 	/* Container for the blog post in individal blog view */
 	padding-left: 2%;
@@ -138,19 +123,8 @@ nav ul li a {
 	color: rgba(146,146,146,1.00);
 	text-decoration: none;
 }
-#footerbar {
-	/* Footer bar at the bottom of the page */
-	height: 18px;
-	clear: both;
-	background-color: rgba(208,207,207,1.00);
-	width: 100%;
-}
-footer {
-	/* Container for footer artices */
-	width: 71%;
-	padding-left: 2%;
-	padding-right: 2%;
-}
+
+
 .notOnDesktop {
 	/*element to be displayed only in mobile view and tabet view */
 	display: none;
@@ -219,21 +193,13 @@ footer {
 #sidebar nav ul {
 	margin-top: 0px;
 }
-footer {
-	/* Footer region */
-	width: 96%;
-	padding-left: 2%;
-	padding-right: 2%;
-}
-#content footer article {
-	/*Each footer article */
-	width: 46%;
-}
+
+
 #mainwrapper header {
 	/* Header */
 	width: 100%;
 }
-}
+
 
 /* Mobile view */
 @media screen and (max-width:480px) {
@@ -281,8 +247,5 @@ footer {
 	/* Title under maincontent, if any */
 	font-size: 14px;
 }
-#content footer article {
-	/* Each foter article */
-	width: 96%;
-}
-}
+
+
