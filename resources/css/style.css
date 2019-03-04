@@ -35,6 +35,17 @@ h2 {
     font-family: 'Shadows Into Light Two', cursive;
     font-family: 'Merienda', cursive;
 }
+.mainblog p {
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+h3 {
+    font-family: 'Shadows Into Light Two', cursive;
+    font-family: 'Merienda', cursive;
+}
 .backh2 h2 {
     background-color: #CECECE;
 }
@@ -55,6 +66,38 @@ p {
 div i p {
     text-align: center;
 }
+.mainblog {
+    margin-top: 0%;
+    margin-bottom: 0%;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+.mainblog h3 {
+    position: absolute;
+    top: 264px;
+    color: #FFFFFF;
+    width: 100rem;
+    font-style: oblique;
+    font-weight: bolder;
+    font-size: large;
+    text-shadow: 2px px 0px;
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-right: 194px;
+   
+  
+}
+.mainblog img {
+    position: relative;
+    width: 100%;
+}
+.mainblog h2 {
+    margin-top: 30px;
+    color: #595959;
+    width: 100%;
+}
+
+
 
 @media only screen and (max-width: 768px) {
 .hideQuote {
@@ -1212,5 +1255,36 @@ label, input, textarea {
 	.smframe3 .parque .zoom {
     width: 8rem;
 		height: auto;
+	}
+}
+
+
+
+.divheight {
+    height: 60vh;
+    width: auto;
+	
+}
+
+
+.guerin{
+	margin: 0 auto;
+	width: 100%;
+}
+
+
+
+hr {
+    margin-bottom: 30px;
+    color: #CB9231;
+}
+
+@media screen and (max-width:580px){
+	.mainblog p {
+	padding-left: 10px;
+	padding-right: 10px;
+	}
+	.mainblog h2 {
+		font-size: 25px;
 	}
 }
