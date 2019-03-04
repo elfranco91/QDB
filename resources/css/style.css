@@ -335,12 +335,12 @@ div i p {
     padding-top: 4rem;
 }
 .three {
-    height: 35rem;
+    height: 45rem;
     width: auto;
     border: 2px;
-    line-height: 2rem;
+    line-height: 30px;
 
-    font-size: 16px;
+    font-size: 20px;
 }
 
 }
