@@ -40,6 +40,7 @@ h2 {
     padding-right: 100px;
     margin-top: 0px;
     padding-top: 0px;
+    font-weight: lighter;
 }
 
 h3 {
@@ -72,18 +73,20 @@ div i p {
     padding-left: 15%;
     padding-right: 15%;
 }
+.row .col-lg-12.picframe .img-responsive {
+}
+
 .mainblog h3 {
     position: absolute;
     top: 264px;
     color: #FFFFFF;
-    width: 100rem;
     font-style: oblique;
     font-weight: bolder;
     font-size: large;
     text-shadow: 2px px 0px;
     margin-top: 0px;
     padding-top: 0px;
-    padding-right: 194px;
+    padding-left: 602px;
    
   
 }
@@ -96,6 +99,8 @@ div i p {
     color: #595959;
     width: 100%;
 }
+
+
 
 
 
@@ -1287,4 +1292,30 @@ hr {
 	.mainblog h2 {
 		font-size: 25px;
 	}
+	.mainblog h3 {
+		padding-left: 160px;
+	}
+	.mainblog {
+		padding-left: 2px;
+		padding-right: 2px;
+	}
+
+}
+
+@media (max-width: 800px){
+	.mainblog p {
+	padding-left: 10px;
+	padding-right: 10px;
+	}
+}
+
+@media (max-width: 975px){
+	.mainblog p {
+	padding-left: 10px;
+	padding-right: 10px;
+	}
+}
+
+.colorOrange {
+	color: #CB9231;
 }
