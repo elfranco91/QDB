@@ -54,7 +54,6 @@ p {
     font-family: 'Port Lligat Sans', sans-serif;
     font-family: 'Rajdhani', sans-serif;
     line-height: 30px;
-    font-size: 16px;
 }
 .quote {
     font-family: 'Port Lligat Sans', sans-serif;
@@ -339,7 +338,10 @@ div i p {
     height: 35rem;
     width: auto;
     border: 2px;
-    line-height: 1.7;
+    line-height: 2rem;
+
+    font-size: 16px;
+}
 
 }
 
@@ -568,6 +570,7 @@ div i p {
 @media only screen and (max-width: 400px) {
 p {
     font-size: 16px;
+    line-height: 30px;
 }
 }
 /*reduce padding under high speed internet */
@@ -1326,5 +1329,5 @@ hr {
 
 
 .section_subtitle h3{
-font-weight: lighter;	
+font-weight: 100;	
 }
