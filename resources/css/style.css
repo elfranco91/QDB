@@ -343,11 +343,18 @@ div i p {
     font-size: 16px;
 }
 
-}
+
 
 @media only screen and (max-width: 400px) {
 .three {
-    height: 80rem;
+    height: 65rem;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+	.marRL {
+    margin-right: 0px;
+    margin-left: 0px;
+	
 }
 }
 
