@@ -99,7 +99,11 @@ div i p {
     width: 100%;
 }
 
-
+.news-image img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
 
 
 
