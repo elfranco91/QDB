@@ -9,6 +9,7 @@ body {
     margin: 0;
     padding: 0;
     z-index: 1;
+    border: thick solid #000000;
 }
 .glomarb {
     margin-bottom: 30px;
@@ -146,11 +147,18 @@ div i p {
     background-position: center;
     background-size: contain;
     overflow: hidden;
-    margin-left: 0px;
-    margin-right: 0px;
+    margin-top: 50px;
+    margin-right: Shorthand;
+    margin-left: Shorthand;
+    margin-bottom: Set;
     height: 80vh;
     width: 100vw;
-    padding-bottom: 0;
+    border-radius: 5px;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+ 
 }
 .jumbotronbrejos {
     padding-top: 50px;
@@ -1165,6 +1173,7 @@ nav {
     color: #35373a;
     min-height: 100vh;
     padding: 50px;
+
 }
 .gallery-container h1 {
     text-align: center;
@@ -1281,10 +1290,11 @@ label, input, textarea {
 
 
 .divheight {
-    height: 60vh;
+    height: 40vh;
     width: auto;
 	
 }
+
 
 
 .guerin{
@@ -1341,4 +1351,135 @@ hr {
 
 .section_subtitle h3{
 font-weight: 100;	
+}
+
+/*1 bed apartment marty bar*/
+
+.poolPic img{
+    max-width: 90%;
+   
+    max-height: 30rem;
+  
+}
+.poolPic{
+   
+    margin-top: 50px;
+}
+
+.expand {
+	height: 1000px;
+}
+
+.poolText {
+    height: 400px;
+    width: 800px;
+    margin: 0 auto;
+    margin-top: 130px;
+    padding: 10px 10px;
+	
+	
+}
+
+.poolText h4 {
+	text-align: center;
+	
+}
+/*css for martys page*/
+
+* {
+  box-sizing: border-box;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+	
+}
+
+
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+
+
+
+
+.frame2 .slide div{
+	 height: 60vh;
 }
