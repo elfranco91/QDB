@@ -147,7 +147,7 @@ div i p {
     background-position: center;
     background-size: contain;
     overflow: hidden;
-    margin-top: 50px;
+   
     margin-right: Shorthand;
     margin-left: Shorthand;
     margin-bottom: Set;
@@ -1364,11 +1364,14 @@ font-weight: 100;
 .poolPic{
    
     margin-top: 50px;
+	
+	
 }
 
 .expand {
 	height: 1000px;
 }
+
 
 .poolText {
     height: 400px;
