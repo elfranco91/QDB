@@ -1362,7 +1362,8 @@ font-weight: 100;
   
 }
 .poolPic{
-   
+    height: 100vh;
+	width: 100vh;
     margin-top: 50px;
 	
 	
