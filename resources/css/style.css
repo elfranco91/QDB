@@ -1478,8 +1478,14 @@ font-weight: 100;
 
 
 
-
-
 .frame2 .slide div{
 	 height: 60vh;
 }
+
+/*apartments/1_bed_apartment_court_Yard*/
+@media screen and (max-width:590px){
+	transfers {
+		width: 100%;
+	}
+}
+
