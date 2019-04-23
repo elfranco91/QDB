@@ -1485,8 +1485,8 @@ font-weight: 100;
 /*apartments/1_bed_apartment_court_Yard*/
 @media screen and (max-width:590px){
 	.poolText {
-		margin-bottom: 100px;
-		display: block;
+    margin-bottom: 140px;
+    display: block;
 	}
 	.reduceTran{
 		margin-bottom: 10px;
