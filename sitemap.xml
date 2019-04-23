@@ -1,48 +1,51 @@
-<?xml version="1.0" encoding="UTF-8"?>
 
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<urlset xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
-
 <url>
-  <loc>http://www.accommodationinalbufeira.com/</loc>
-  <lastmod>2019-03-04T13:37:16+00:00</lastmod>
-  <priority>1.00</priority>
+<loc>https://www.accommodationinalbufeira.com/</loc>
+<lastmod>2019-04-23T15:02:01+00:00</lastmod>
+<priority>1.00</priority>
 </url>
 <url>
-  <loc>http://www.accommodationinalbufeira.com/index.html</loc>
-  <lastmod>2019-03-04T13:37:16+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>https://www.accommodationinalbufeira.com/index.html</loc>
+<lastmod>2019-04-23T15:02:01+00:00</lastmod>
+<priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.accommodationinalbufeira.com/local/local.html</loc>
-  <lastmod>2019-03-04T13:37:16+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>https://www.accommodationinalbufeira.com/local/local.html</loc>
+<lastmod>2019-04-23T15:02:01+00:00</lastmod>
+<priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.accommodationinalbufeira.com/getting_around/getting_around.html</loc>
-  <lastmod>2019-03-04T13:37:16+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>https://www.accommodationinalbufeira.com/getting_around/getting_around.html</loc>
+<lastmod>2019-04-23T15:02:01+00:00</lastmod>
+<priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.accommodationinalbufeira.com/blog.html</loc>
-  <lastmod>2019-03-04T13:37:16+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>https://www.accommodationinalbufeira.com/blog.html</loc>
+<lastmod>2019-04-23T15:02:01+00:00</lastmod>
+<priority>0.80</priority>
 </url>
 <url>
-  <loc>http://www.accommodationinalbufeira.com/Gallery/Gallery.html</loc>
-  <lastmod>2019-03-04T13:37:16+00:00</lastmod>
-  <priority>0.64</priority>
+<loc>https://www.accommodationinalbufeira.com/Gallery/Gallery.html</loc>
+<lastmod>2019-04-23T15:02:01+00:00</lastmod>
+<priority>0.64</priority>
 </url>
 <url>
-  <loc>http://www.accommodationinalbufeira.com/contact/contact.html</loc>
-  <lastmod>2019-03-04T13:37:16+00:00</lastmod>
-  <priority>0.64</priority>
+<loc>https://www.accommodationinalbufeira.com/contact/contact.html</loc>
+<lastmod>2019-04-23T15:02:01+00:00</lastmod>
+<priority>0.64</priority>
 </url>
-
-
+<url>
+<loc>https://www.accommodationinalbufeira.com/apartments/1_bed_apartment_court_Yard.html</loc>
+<lastmod>2019-04-23T15:02:01+00:00</lastmod>
+<priority>0.51</priority>
+</url>
+<url>
+<loc>https://www.accommodationinalbufeira.com/Gallery/1_bed_apartment_court_Yard_gallery.html</loc>
+<lastmod>2019-04-23T15:02:01+00:00</lastmod>
+<priority>0.41</priority>
+</url>
 </urlset>
