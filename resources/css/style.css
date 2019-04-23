@@ -575,7 +575,7 @@ div i p {
     box-shadow: 0 2px 2px rgba(0, 0, 0, .25);
 }
 
-@media only screen and (min-width: 400px) {
+@media only screen and (min-width: 800px) {
 .hideb {
     display: none;
 }
@@ -1485,7 +1485,7 @@ font-weight: 100;
 /*apartments/1_bed_apartment_court_Yard*/
 @media screen and (max-width:590px){
 	.poolText {
-    margin-bottom: 160px;
+    margin-bottom: 180px;
     display: block;
 	}
 	.reduceTran{
