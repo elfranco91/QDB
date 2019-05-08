@@ -1099,7 +1099,6 @@ footer .padtop {
     width: 10rem;
     height: 5rem;
     margin: auto;
-    margin-top: 2rem;
 }
 .mdframe {
     width: auto;
@@ -1495,4 +1494,10 @@ font-weight: 100;
 		width:100%;
 		margin-top: 400px;
 	}
+}
+@media screen and (max-width:975px){
+.container-fluid .remove-pad {
+	padding-right: 0px;
+    padding-left: 0px;
+  }
 }
