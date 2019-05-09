@@ -1249,7 +1249,7 @@ label, input, textarea {
 .centerForm {
     background-color: #DCDCDC;
     width: 40rem;
-    height: 600px;
+    height: 700px;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
