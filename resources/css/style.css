@@ -236,10 +236,10 @@ div i p {
 	transition: border-bottom-color 2s ease;
 }
 .kakiBorder {
-	border-left-color: #CB9231;
-	border-right-color: #CB9231;
-	border-top-color: #CB9231;
-	border-bottom: 2px solid #CB9231;
+	border-left-color: #FFCE00;
+	border-right-color: #FFCE00;
+	border-top-color: #FFCE00;
+	border-bottom: 2px solid #FFCE00;
 	-webkit-box-shadow: 3px 3px 5px 6px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
 	-moz-box-shadow: 3px 3px 5px 6px #ccc;  /* Firefox 3.5 - 3.6 */
 	box-shadow: 3px 3px 5px 6px #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
